@@ -1,47 +1,50 @@
 module.exports = {
   siteMetadata: {
-    title: `Novela by Narative`,
-    name: `Narative`,
+    title: `leglog`,
+    name: `leglog`,
     siteUrl: `https://novela.narative.co`,
     description: `This is my description that will be used in the meta tags and important for search results`,
     hero: {
-      heading: `Welcome to Novela, the simplest way to start publishing with Gatsby.`,
+      heading: `leglog へようこそ。<br>日常、DIY、Web技術などの私見を綴っています。`,
       maxWidth: 652,
     },
     social: [
       {
-        name: `twitter`,
-        url: `https://twitter.com/narative`,
+        name: `medium`,
+        url: `https://legwiki.lkj.io`,
       },
       {
-        name: `github`,
-        url: `https://github.com/narative`,
+        name: `twitter`,
+        url: `https://twitter.com/legnoh`,
+      },
+      {
+        name: `facebook`,
+        url: `https://facebook.com/legnoh`,
       },
       {
         name: `instagram`,
-        url: `https://instagram.com/narative.co`,
+        url: `https://instagram.com/legnoh`,
       },
       {
-        name: `linkedin`,
-        url: `https://www.linkedin.com/company/narative/`,
+        name: `github`,
+        url: `https://github.com/legnoh`,
       },
       {
-        name: `dribbble`,
-        url: `https://dribbble.com/narativestudio`,
+        name: `paypal`,
+        url: `https://paypal.me/legnoh?locale.x=ja_JP`,
       },
     ],
   },
   plugins: [
+    `@pauliescanlon/gatsby-mdx-embed`,
     {
       resolve: "@narative/gatsby-theme-novela",
       options: {
         contentPosts: "content/posts",
         contentAuthors: "content/authors",
-        basePath: "/",
         authorsPage: true,
         sources: {
-          local: true,
-          // contentful: true,
+          local: true
         },
       },
     },
@@ -54,12 +57,7 @@ module.exports = {
         background_color: `#fff`,
         theme_color: `#fff`,
         display: `standalone`,
-        icon: `src/assets/favicon.png`,
-      },
-    },
-    {
-      resolve: `gatsby-plugin-netlify-cms`,
-      options: {
+        icon: `src/assets/favicon.svg`,
       },
     },
   ],

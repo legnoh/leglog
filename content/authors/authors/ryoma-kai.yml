@@ -1,0 +1,12 @@
+name: Ryoma Kai
+bio: |
+  関東在住のWebエンジニアです。趣味のDIYや様々な発見・知見について語ります。
+avatar: ./avatars/ryoma-kai.jpeg
+social:
+  - url: https://github.com/legnoh
+  - url: https://twitter.com/legnoh
+  - url: https://facebook.com/legnoh
+  - url: https://instagram.com/legnoh
+  - url: https://paypal.me/legnoh?locale.x=ja_JP
+  - url: https://medium.legwiki.lkj.io
+featured: true
