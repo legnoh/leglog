@@ -2,8 +2,8 @@ module.exports = {
   siteMetadata: {
     title: `leglog`,
     name: `leglog`,
-    siteUrl: `https://novela.narative.co`,
-    description: `This is my description that will be used in the meta tags and important for search results`,
+    siteUrl: `https://leglog.lkj.io`,
+    description: `legnoh's life log :)`,
     hero: {
       heading: `leglog へようこそ。<br>日常、DIY、Web技術などの私見を綴っています。`,
       maxWidth: 652,
@@ -51,8 +51,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Novela by Narative`,
-        short_name: `Novela`,
+        name: `leglog`,
+        short_name: `leglog`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#fff`,
