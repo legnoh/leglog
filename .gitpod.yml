@@ -1,8 +1,6 @@
 tasks:
-  - init: yarn install
+  - init: brew install git-lfs && git lfs install && yarn install
     command: yarn run dev
-  - init: brew install git-lfs
-    command: git lfs install
 ports:
   - port: 8000
     onOpen: ignore
