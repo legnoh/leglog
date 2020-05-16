@@ -2,7 +2,7 @@
 title: 2020-19 / 
 slug: 2020-19
 author: Ryoma Kai
-date: 2020-05-22
+date: 2020-05-17
 hero: ./images/no-hero.png
 excerpt: 
 tags: ["週報"]
