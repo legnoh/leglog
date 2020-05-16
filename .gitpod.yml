@@ -1,5 +1,7 @@
+image:
+  file: .gitpod.Dockerfile
 tasks:
-  - init: brew install git-lfs && git lfs install && yarn install
+  - init: yarn install
     command: yarn run dev
 ports:
   - port: 8000
