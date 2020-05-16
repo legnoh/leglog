@@ -1,2 +1,2 @@
 tasks:
-  - command: brew install git-lfs
+  - command: brew install git-lfs && git lfs install
