@@ -6,6 +6,7 @@ date: <%= to_date %>
 hero: ./images/no-hero.png
 excerpt: 
 tags: ["週報"]
+blog_url: https://leglog.lkj.io/<%= to_date %>
 ---
 
 <!--greeting here-->
@@ -22,7 +23,10 @@ tags: ["週報"]
 
 - [links here]()
 
-## tweet
+
+- [Bookmark Log - Hatena Bookmark](https://b.hatena.ne.jp/Ryo_K/bookmark)
+
+## activity
 
 <Tweet tweetLink="" align="center" />
 <Instagram instagramId="" />
@@ -31,3 +35,7 @@ tags: ["週報"]
 - [Tweet Log - Twitter](https://twitter.com/search?q=(from%3Alegnoh)%20until%3A<%= to_date %>%20since%3A<%= from_date %>%20-filter%3Areplies&src=typed_query)
 - [Commit Log - GitHub](https://github.com/legnoh?tab=overview&from=<%= from_date %>&to=<%= to_date %>)
 - [Training Log - Strava](https://www.strava.com/athletes/47349424/training/log)
+
+----
+
+- [View with GitHub](https://github.com/legnoh/leglog/blob/master/<%= post_dir %>/index.md)

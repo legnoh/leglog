@@ -9,7 +9,6 @@ date=$(date +%d)
 slug=${year}-${week}
 from_date=$(date '+%Y-%m-%d')
 to_date=$(date '+%Y-%m-%d' --date '6 days')
-
 post_dir=content/posts/$(expr $(date +%Y) / 10)x/${year}/${week}
 
 # set env in global
@@ -24,4 +23,5 @@ ln -s ../../../../../../src/assets/no-hero.png ${post_dir}/images/no-hero.png
 erb from_date=${from_date} \
     to_date=${to_date} \
     slug=${slug} \
+    post_dir=${post_dir} \
     src/templates/posts/index.md.erb > ${post_dir}/index.md
