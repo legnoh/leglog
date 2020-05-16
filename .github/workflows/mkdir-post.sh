@@ -7,8 +7,8 @@ month=$(date +%m)
 week=$(date +%U)
 date=$(date +%d)
 slug=${year}-${week}
-from_date=$(gdate '+%Y-%m-%d')
-to_date=$(gdate '+%Y-%m-%d' --date '6 days')
+from_date=$(date '+%Y-%m-%d')
+to_date=$(date '+%Y-%m-%d' --date '6 days')
 
 post_dir=content/posts/$(expr $(date +%Y) / 10)x/${year}/${week}
 
