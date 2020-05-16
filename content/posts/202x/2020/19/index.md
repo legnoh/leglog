@@ -32,8 +32,8 @@ blog_url: https://leglog.lkj.io/2020-19
 <Instagram instagramId="" />
 `youtube: `
 
-- [Tweet Log - Twitter](https://twitter.com/search?q=(from%3Alegnoh)%20until%3A2020-05-22%20since%3A2020-05-16%20-filter%3Areplies&src=typed_query)
-- [Commit Log - GitHub](https://github.com/legnoh?tab=overview&from=2020-05-16&to=2020-05-22)
+- [Tweet Log - Twitter](https://twitter.com/search?q=(from%3Alegnoh)%20until%3A2020-05-17%20since%3A2020-05-11%20-filter%3Areplies&src=typed_query)
+- [Commit Log - GitHub](https://github.com/legnoh?tab=overview&from=2020-05-11&to=2020-05-17)
 - [Training Log - Strava](https://www.strava.com/athletes/47349424/training/log)
 
 ----
