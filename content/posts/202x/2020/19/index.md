@@ -3,7 +3,7 @@ title: 2020-19 /
 slug: 2020-19
 author: Ryoma Kai
 date: 2020-05-17
-hero: ./images/no-hero.png
+hero: ./images/bicycle.png
 excerpt: 
 tags: ["週報"]
 blog_url: https://leglog.lkj.io/2020-19
@@ -11,9 +11,13 @@ blog_url: https://leglog.lkj.io/2020-19
 
 <!--greeting here-->
 
+![](./images/bicycle.png)
+
 ## done
 
 ### 
+
+
 
 ## issue
 
