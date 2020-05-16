@@ -4,4 +4,4 @@ FROM gitpod/workspace-full
 RUN brew install git-lfs && git lfs install
 
 # add alias for git clone
-RUN git config alias.clone 'lfs clone'
+RUN git config --global alias.clone 'lfs clone'
