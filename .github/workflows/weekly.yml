@@ -1,0 +1,33 @@
+name: weekly-tasks
+on: push
+  # schedule:
+  # - cron: 0 0 * * 0
+
+jobs:
+  create-this-week-template:
+    name: Make this week post's branch
+    runs-on: ubuntu-latest
+    steps:
+
+    - name: Checkout Repository
+      uses: actions/checkout@master
+
+    - name: Create Post Directory
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        TZ: 'Asia/Tokyo'
+      run: .github/workflows/mkdir-post.sh
+    
+    - name: Create Pull Request
+      uses: peter-evans/create-pull-request@v2
+      with:
+        commit-message: initialize ${{ env.slug }} blog post
+        title: "[post] ${{ env.slug }}"
+        body: |
+          ## this week's theme
+
+          - <!-- ideas here-->
+        labels: posts
+        assignees: legnoh
+        branch: ${{ env.slug }}
+        draft: true
