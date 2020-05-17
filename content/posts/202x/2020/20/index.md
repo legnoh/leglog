@@ -4,7 +4,7 @@ slug: 2020-20
 author: Ryoma Kai
 date: 2020-05-17
 hero: ./images/leglog-logo.jpg
-excerpt: ブログを Gatsby, Netlify, GitHub Actions, GitPod で再構築した話
+excerpt: ブログを Gatsby, Netlify, GitHub Actions, GitPod などで再構築した話
 tags: ["週報"]
 blog_url: https://leglog.lkj.io/2020-20
 ---
@@ -79,18 +79,114 @@ blog_url: https://leglog.lkj.io/2020-20
 
 ただ、もし1万年後。未来の誰かやロボットが私の書いた文章を見つけ「こんな人がいたのか」と思いを馳せるかもしれない、これ以上の"浪漫"がどこにあるだろう！ 私はこの浪漫にこそ自分のソースコードと文章を預けたいと考える。
 
+### 課題その4: 執筆方法・コンテンツ管理(CMS)
+
+GitHubを利用するということは、Gitリポジトリとしてブログ記事を管理するということになるが、iPadなどでの記事執筆が非常に難しいという問題があった。Macでは普段の仕事で使っているGit環境をそのまま使えるが、iOSで使えるGitクライアントはかなり少なく、 [WorkingCopy](https://apps.apple.com/jp/app/working-copy-git-client/id896694807) くらいしか選択肢がない。
+
+また、ブログでは画像などのでかいファイルが大量に発生するため、今後画像の質が向上し、全てをGitリポジトリにコミットすると1リポジトリ100GBのサイズ上限に引っかかってしまう。
+
+加えて、エディタで書くのも微妙に感じることはあり、GitHubをソース源にしながらAPI的にやりとりする、いわゆるヘッドレスCMSを検討できないかと考えていた。特に [Contentful](https://www.contentful.com/), [NetlifyCMS](https://www.netlifycms.org/) などを利用すれば、より書きやすいエディタ環境を手に入れられるかも？とも思い一通り試した。
+
+だが結果的に、これは全て難しいものだった。WorkingCopyは高性能だが、エディタという意味では起動するまでが面倒だし、Contentfulは一定以上の記事数になると毎月の維持費用が高い。Netlify CMSはiPadのSafari上で日本語入力ができない致命的な問題があった。
+
+#### どうしたか?
+
+Git LFSを使った管理を実施するようにした。現時点ではLFSのサイズ上限は1GBで対して使い物にならないのだが、少なくとも数年経てば容量も上がるだろうし、仮に有料のサイズ帯になって自分が死去した場合でも、内容を消去することはないとのことなので、ここも丸ごとソースコードとして保管できるソリューションになる。
+
+また執筆方法としては、VSCodeライクなエディタをブラウザ上で起動できる　[GitPod](https://www.gitpod.io/) を利用することにした。ブラウザで起動するので、iPadだろうがどこでも執筆ができるし、GitPodのエディタはKubernetes上で立ち上がっていることから、Dockerイメージとして整備することができ、`git lfs`や`yarn`などのシェルコマンドも走らせることができる。
+
+将来的には、先日発表された [GitHub Codespaces](https://github.com/features/codespaces/) なども乗り換え先として良いかもしれないが、現時点ではまだ使えないのでひとまず GitPodで執筆することにする。
+
+### 課題その5: フレームワークについて
+
+ソースコードで保管するからと言って、流石にHTMLを直書きするわけにも行かない。エンジニアというのもあるし、できればMarkdownで書いたものを"static site generator"的な何かに食わせて出力したHTMLとassetsをデプロイするような構成にしたい。
+
+当初は少し仕事で使っていた [mkdocs](https://www.mkdocs.org/) などを見ていたが、ドキュメントに特化した部分を考えるとできれば他のものを選定した方が良いかと考えた。
+
+これは当初、自分がGoの知見があることから [Hugo](https://gohugo.io/) を利用しようと思っていたのだが、後から [Gatsby.js](https://www.gatsbyjs.org/) が気になってしまい、この2つを最後まで悩むことになった。
+
+#### どうしたか?
+
+結果としては **Gatsby.js** を採用した。 
+
+決め手になったのが「プラグイン」に当たる部分のエコシステムの差だ。Hugoは元々「テーマ」というサイト全体を覆うエコシステムが大きく発達しており、その面では Gatsby.js に大きく優っているのだが、「Template」や「Hugo module」といった細かい追加モジュールのエコシステムが未熟で、ユーザによって作られたスニペットがブログで細々と紹介されており、それを手作業で追加して対応すると言ったものが多い。長い目で見るとこのロードマップが欲しいが、そもそもhugo modulesやthemeはパッケージング方法が一貫しておらず、git submoduleやgo modulesで別々に依存関係を整備することになり、根本的な構造のせいでかなり難しい課題を孕んでいる。
+
+これに対して Gatsby.js は真逆の進化をしており、先に plugin のエコシステムが十分に成熟した後にテーマについての枠組みが成立した。そのため、テーマはまだまだどれも使い勝手が悪いのだが、pluginとしてのエコシステムが十分に出来上がっており、かつページ表示速度も申し分ない。加えてフロントエンドJS(React)を最初から根本に据えているので、NPMで全ての依存関係を一元管理できる。
+
+この差は言語的な問題も大きく関わっているので早々ひっくり返らないだろうなというのと、自分自身、Reactを使ったコンポーネントを触ることがほとんどない部署にいるので、FE技術の勉強の意味でも、これを選定しておくのはスキルアップに良いだろうと考えた。
+
+ただ、選定した後に苦労したのがビルド時間だ。hugoはやはり軽量でビルドに時間がかからないのですぐにプレビューできるが、Gatsbyはそこそこかかる。そのため、基本Markdownで書いてからプレビューをどうするかという課題が残った。
+
+### 課題その6: どこにホスティングするか？
+
+これまでは各サービスにホスティングを任せていたが、作られるものは単なるHTMLなので、適当なhttpdサーバが立っているところであればなんでも良い。とはいえ、なるべく管理を楽にしたいということで、[Netlify](https://www.netlify.com/) と [GitHub Pages](https://pages.github.com/) を対象として検討した。元々Netlifyはここ以外でもたくさん使っており慣れていたが、GH Pages でカバーできるならそれでも十分かなと思えていたので、改めて検討することにした。
+
+#### どうしたか？
+
+Netlify を採用した。決め手になったのはデプロイプレビューで、PullRequestを送った時に、デプロイした結果がどうなるのかを本ちゃんのサイトと別にデプロイしてプレビューできるようになる機能。先ほどのGatsbyの問題もあり、ここでそれが解決できるのは僥倖！ということで採用した。
+
+ちなみに、DNSのカスタムドメインや、Let's Encryptを使ったSSL証明書の自動付与(https化)などでは、ほぼ両者に違いはなくなったので、デプロイプレビューさえあればPagesでも普通によかったかもしれない。(Netlify的にはたくさん違いあるよ！とアピールしてたので一応提灯記事を貼っておく。確かにリダイレクトやコンテンツ最適化はよかったと思う)
+
+- [GitHub Pages vs. Netlify | A Comparative Breakdown](https://www.netlify.com/github-pages-vs-netlify/)
+
+### 課題その7: どうやってgit commitするか？
+
+せっかくPR時のプレビューがあるのだから、できればPullRequestで記事を書いていくようなフローを構成したい。ただ、毎回GitPodを開いてからブランチを切り、ディレクトリを作るという作業を挟むのは面倒臭い。できればここをあらかじめ作っておく、つまり自動化したいと考えた。
+
+#### どうしたか?
+
+[GitHub Actions](https://github.co.jp/features/actions)を使って、毎週月曜日に自動的に記事のテンプレートが作られるようにした。 [こんな感じ](https://github.com/legnoh/leglog/blob/ca472135b76e961dc92438c000f47c3ebd3c3a6d/.github/workflows/weekly.yml)で毎週月曜日に次の日曜日に書く記事のブランチとテンプレ、PullRequestを自動作成するようにした。
+
+GitPodでは、[PullRequestやブランチごとにワークスペースを分離する](https://www.gitpod.io/docs/context-urls/)ため、ブランチ名を起動時のURLに組み込めばそのままブランチを指定してエディタを起動できる。
+
+これを活用して、[Alfred](https://www.alfredapp.com/)や[Shortcut（iOS）](https://apps.apple.com/jp/app/id915249334)で今週の週番号を計算し、すぐに対象のブランチのGitPod URLが開けるようにした。
+
+<Tweet tweetLink="https://twitter.com/legnoh/status/1261911546709438465" align="center" />
+
+### 課題その8: ドメインについて
+
+最後に残った課題がドメインだ。元々自分のサイトをよく見る人は気づいているかもしれないが、数年前から自分のホスティングしているサイトは、全て **lkj.io** というドメインを使って構成されている。人生で何度もタイプすることになるドメインが使いづらいものでは...という思いからこのようにしたが、 io ドメインは[イギリス領インド洋地域を表す](https://ja.wikipedia.org/wiki/.io)もので、ccTLDはSEO的に不利だし、変えた方が良いのでは？と`.info`系のドメインを漁っていたりした。
+
+#### どうしたか?
+
+結果的には見ての通り、 lkj.io のままとした。Googleでも確認したのだが、ioドメインは他のグローバル企業でも使われる事例が多いため、ccTLDだが実質的に gTLDとして扱われるらしいので問題ないみたい。
+
+- [多地域、多言語のサイトの管理 - Search Console ヘルプ](https://support.google.com/webmasters/answer/182192#generic-domains)
+
+ただ、ioドメインが維持費用が結構高いのがネック...(年間7,000円)。とはいえ、1年でそれだけタイプ数を減らせるなら悪くない投資だとは思うし、閲覧者にとってのメリットにもなるので、高いがそのまま使い続けることにした。
+
+## あえてやらなかったこと
+
+- 共有ボタン。自分の記事を届けたい層は恐らく使わないのではないか？と考えて廃止した。はてなスターは欲しいかも
+。
+- コメント欄。Facebook/Twitterで十分観測できるからいらないなーと感じたのでなし。
+- 過去記事検索。恐らくGoogleのドメイン指定で十分賄えると判断した。
+
+## 残った課題
+
+これでかなり自分の理想に近い環境にはなったが、まだいくらか微妙なところがあるので今後修正しようと思う。とりあえずこれでだいぶ書きやすい環境が整ったので、今後はまた毎週のペースに戻していきたい。
+
+- GoogleAnalyticsがまだ入ってないので導入したいが、GDPR周りのルールをまだキャッチアップできてない。プライバシーポリシーをどこかに静的ページでおく必要がある理解。
+- 意外とGitPodでMarkdownの長文を書くと動きがカクつく。Codespacesはよ...。
+- Qiitaを辞めたいので、どこかで記事をインポートして統合させたい。
+- はてなブログにリダイレクトを設置して誘導する。
+- 肝心のwikiサイトはまだ未着手なのでまた構造を作る。
+
 ## bookmark
 
-- [links here]()
+- [75％以上の人が「新型コロナウイルス終息後も自宅勤務を続けたい」と考えている実態が調査結果で判明 - GIGAZINE](https://gigazine.net/news/20200507-remote-work-after-coronavirus-pandemic/)
+- [大体いい感じになるKeynote・Googleスライド用無料テンプレート『Azusa 3』作った - SANOGRAPHIX BLOG](https://text.sanographix.net/entry/azusa3-google-slides-keynote-template)
+- [Infrastructure as Codeのこれまでとこれから/Infra Study Meetup #1 - Speaker Deck](https://speakerdeck.com/mizzy/infra-study-meetup-number-1)
+- [研究をはじめる前に知っておいて欲しい7つのこと / Welcome to Lab - Speaker Deck](https://speakerdeck.com/kaityo256/welcome-to-lab)
 
 
 - [Bookmark Log - Hatena Bookmark](https://b.hatena.ne.jp/Ryo_K/bookmark)
 
 ## activity
 
-<Tweet tweetLink="" align="center" />
-<Instagram instagramId="" />
-`youtube: `
+最近はおいしいお店が多くて助かってます。
+
+<Instagram instagramId="CAIOHuBJ70q" />
 
 - [Tweet Log - Twitter](https://twitter.com/search?q=(from%3Alegnoh)%20until%3A2020-05-17%20since%3A2020-05-11%20-filter%3Areplies&src=typed_query)
 - [Commit Log - GitHub](https://github.com/legnoh?tab=overview&from=2020-05-11&to=2020-05-17)
