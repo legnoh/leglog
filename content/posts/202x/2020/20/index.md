@@ -160,6 +160,7 @@ GitPodでは、[PullRequestやブランチごとにワークスペースを分�
 - はてなブログ flavored な markdown 構文(100記事分)をMDXに書き換えるのにだいぶ苦労した。これだけで丸々3日くらいかかっている。なかにはFC2ブログ時代の構文が残っていたりして地獄だった...。結局[地道にsedで差し替えるなどした](https://gist.github.com/legnoh/c2223b6417c8debbf0e3a5cb8c6026a7)。
 - 記事に使っていたイメージも全てダウンロードし、適切なディレクトリにコピーして、`git lfs`管理にするところまでもなかなか長かった。
 - ダークモード対応。ロゴをダークモード対応で白黒反転させるために[SVGと仲良くなった](https://github.com/legnoh/leglog/blob/0b663926516f72f1bd201e601b2d1b2e34a06ca9/src/%40narative/gatsby-theme-novela/components/Logo.js)。
+- Notion時代に困っていたのがslug（ページURL)だが、これはテーマ任せなので動くか不安だった。今使っている[Novela](https://github.com/narative/gatsby-theme-novela) では結構自由が効くのだが、反面バグが多いテーマなのでどの程度ついていけるか次第。
 
 <Tweet tweetLink="https://twitter.com/legnoh/status/1256966909913776131" align="center" />
 
