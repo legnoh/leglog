@@ -26,11 +26,18 @@ jobs:
         commit-message: initialize ${{ env.slug }} blog post
         title: "[post] ${{ env.slug }}"
         body: |
-          - **target:** ${{ env.from_date }} ~ ${{ env.to_date }}
+          - **target:** ${{ env.from_date }}(Mon) ~ ${{ env.to_date }}(Sun)
 
           ## this week's theme
 
-          - <!-- ideas here -->
+          - what's up?
+
+          ## FYI
+
+          - :blue_heart: [Tweet Log - Twitter](https://twitter.com/search?q=(from%3Alegnoh)%20until%3A${{ env.to_date }}%20since%3A${{ env.from_date }}%20-filter%3Areplies&src=typed_query)
+          - :computer: [Commit Log - GitHub](https://github.com/legnoh?tab=overview&from=${{ env.from_date }}&to=${{ env.to_date }})
+          - :bicyclist: [Training Log - Strava](https://www.strava.com/athletes/47349424/training/log)
+          - :train: [Timeline - Google Maps](https://www.google.com/maps/timeline?pb=!1m2!1m1!1s${{ env.from_date }})
         labels: posts
         assignees: legnoh
         branch: ${{ env.slug }}
