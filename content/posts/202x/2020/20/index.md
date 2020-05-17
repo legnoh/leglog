@@ -107,7 +107,7 @@ Git LFSを使った管理を実施するようにした。現時点ではLFSの�
 
 また執筆方法としては、VSCodeライクなエディタをブラウザ上で起動できる　[Gitpod](https://www.gitpod.io/) を利用することにした。ブラウザで起動するので、iPadだろうがどこでも執筆ができるし、GitpodのエディタはKubernetes上で立ち上がっていることから、Dockerイメージとして整備することができ、`git lfs`や`yarn`などのシェルコマンドも走らせることができる。
 
-将来的には、先日発表された [GitHub Codespaces](https://github.com/features/codespaces/) なども乗り換え先として良いかもしれないが、現時点ではまだ使えないのでひとまず GitPodで執筆することにする。
+将来的には、先日発表された [GitHub Codespaces](https://github.com/features/codespaces/) なども乗り換え先として良いかもしれないが、現時点ではまだ使えないのでひとまず Gitpodで執筆することにする。
 
 ### 課題その5: フレームワークについて
 
