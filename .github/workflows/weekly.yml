@@ -1,9 +1,9 @@
 name: weekly-tasks
 on:
-  # push:
-  #   branches: [ master ]
+  push:
+    branches: [ master ]
   schedule:
-  - cron: 0 0 * * 0
+  - cron: 3 0 * * 1
 
 jobs:
   create-this-week-template:
@@ -26,9 +26,11 @@ jobs:
         commit-message: initialize ${{ env.slug }} blog post
         title: "[post] ${{ env.slug }}"
         body: |
+          - **target:** ${{ env.from_date }} ~ ${{ env.to_date }}
+
           ## this week's theme
 
-          - <!-- ideas here-->
+          - <!-- ideas here -->
         labels: posts
         assignees: legnoh
         branch: ${{ env.slug }}
