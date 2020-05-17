@@ -4,7 +4,7 @@ slug: 2020-20
 author: Ryoma Kai
 date: 2020-05-17
 hero: ./images/leglog-logo.jpg
-excerpt: ブログを Gatsby, Netlify, GitHub Actions, GitPod などで再構築した話
+excerpt: ブログを GatsbyJS, Netlify, GitHub Actions, Gitpod などで再構築した話
 tags: ["週報"]
 blog_url: https://leglog.lkj.io/2020-20
 ---
