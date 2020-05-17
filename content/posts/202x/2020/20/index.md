@@ -34,7 +34,7 @@ blog_url: https://leglog.lkj.io/2020-20
 - 画像管理: **Git LFS**
 - サイト生成: **GatsbyJS**
 - サイトホスティング: **Netlify** (デプロイプレビュー)
-- 記事執筆: **GitPod**
+- 記事執筆: **Gitpod**
 - テンプレート作成: **GitHub Actions**
 - 依存管理/更新: **Dependabot**
 
