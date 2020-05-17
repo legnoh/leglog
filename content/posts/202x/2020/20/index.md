@@ -149,9 +149,9 @@ Netlify を採用した。決め手になったのはデプロイプレビュー
 
 [GitHub Actions](https://github.co.jp/features/actions)を使って、毎週月曜日に自動的に記事のテンプレートが作られるようにした。 [こんな感じ](https://github.com/legnoh/leglog/blob/ca472135b76e961dc92438c000f47c3ebd3c3a6d/.github/workflows/weekly.yml)で毎週月曜日に次の日曜日に書く記事のブランチとテンプレ、PullRequestを自動作成するようにした。
 
-GitPodでは、[PullRequestやブランチごとにワークスペースを分離する](https://www.gitpod.io/docs/context-urls/)ため、ブランチ名を起動時のURLに組み込めばそのままブランチを指定してエディタを起動できる。
+Gitpodでは、[PullRequestやブランチごとにワークスペースを分離する](https://www.gitpod.io/docs/context-urls/)ため、ブランチ名を起動時のURLに組み込めばそのままブランチを指定してエディタを起動できる。
 
-これを活用して、[Alfred](https://www.alfredapp.com/)や[Shortcut（iOS）](https://apps.apple.com/jp/app/id915249334)で今週の週番号を計算し、すぐに対象のブランチのGitPod URLが開けるようにした。
+これを活用して、[Alfred](https://www.alfredapp.com/)や[Shortcut（iOS）](https://apps.apple.com/jp/app/id915249334)で今週の週番号を計算し、すぐに対象のブランチのGitpod URLが開けるようにした。
 
 <Tweet tweetLink="https://twitter.com/legnoh/status/1261911546709438465" align="center" />
 
