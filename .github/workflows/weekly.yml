@@ -1,7 +1,7 @@
 name: weekly-tasks
 on:
-  push:
-    branches: [ master ]
+  # push:
+  #   branches: [ master ]
   schedule:
   - cron: 3 0 * * 1
 
