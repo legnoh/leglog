@@ -3,7 +3,7 @@ on:
   # push:
   #   branches: [ master ]
   schedule:
-  - cron: 3 0 * * 1
+  - cron: 0 3 * * 1
 
 jobs:
   create-this-week-template:
