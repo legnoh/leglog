@@ -13,8 +13,8 @@
     "@pauliescanlon/gatsby-mdx-embed": "^0.0.19",
     "gatsby": "^2.22.9",
     "gatsby-plugin-manifest": "^2.2.4",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
   },
   "devDependencies": {
     "@svgr/cli": "^5.4.0"
