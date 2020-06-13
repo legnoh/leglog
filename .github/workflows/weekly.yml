@@ -23,7 +23,7 @@ jobs:
     - name: Create Pull Request
       uses: peter-evans/create-pull-request@v2
       with:
-        commit-message: [skip ci] initialize ${{ env.slug }} blog post
+        commit-message: "[skip ci] initialize ${{ env.slug }} blog post"
         title: "[post] ${{ env.slug }}"
         body: |
           - **target:** ${{ env.from_date }}(Mon) ~ ${{ env.to_date }}(Sun)
