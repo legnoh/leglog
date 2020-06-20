@@ -9,7 +9,7 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
-    "@narative/gatsby-theme-novela": "^0.14.4",
+    "@narative/gatsby-theme-novela": "^0.16.3",
     "@pauliescanlon/gatsby-mdx-embed": "^0.0.21",
     "gatsby": "^2.23.6",
     "gatsby-plugin-manifest": "^2.2.4",
