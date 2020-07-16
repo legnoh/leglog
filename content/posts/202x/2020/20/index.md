@@ -85,7 +85,7 @@ blog_url: https://leglog.lkj.io/2020-20
 
 現時点で、一般人が使える一番信頼できるアーカイブ方法を利用すべく、GitHub Archive Program を利用して管理することを考えた。これは、米マイクロソフト傘下であるGitHub社が提供しているもので、ソースコードを複数の媒体を使って超長期間保管してくれるもので、最長の期限であるProject Silicaに至っては、10,000年間保管ができるようになっている。
 
-- [GitHub Archive Program | The GitHub Archive Program will safely story every public GitHub repo for 1,000 years in the Arctic World Archive in Svalbard, Norway.](https://archiveprogram.github.com/)
+- [GitHub Archive Program | The GitHub Archive Program will safely store every public GitHub repo for 1,000 years in the Arctic World Archive in Svalbard, Norway.](https://archiveprogram.github.com/)
 
 もちろん、1万年間保管できる保証などどこにもないし、戦争が起き、過去の遺産を理解しない為政者によって、我々のコードも何もかもが破壊されることはあるかもしれないし、保管媒体が性能を発揮できず、せいぜい数百年で壊れてしまうかもしれない。1万年前と言えば私たちからすれば新石器時代であり、そんな時代の文章など今の私たちの役には立たないだろうとも思う。
 
