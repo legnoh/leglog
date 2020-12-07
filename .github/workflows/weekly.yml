@@ -1,7 +1,6 @@
 name: weekly-tasks
 on:
-  # push:
-  #   branches: [ master ]
+  workflow_dispatch:
   schedule:
   - cron: 0 3 * * 1
 
