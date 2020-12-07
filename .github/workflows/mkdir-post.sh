@@ -19,10 +19,10 @@ from_date=$(date '+%Y-%m-%d' --date "6 day ago ${to_date}")
 post_dir=content/posts/$(expr ${year} / 10)x/${year}/${week}
 
 # set env in global(GitHub Actions)
-echo "::set-env name=slug::${slug}"
-echo "::set-env name=from_date::${from_date}"
-echo "::set-env name=to_date::${to_date}"
-echo "::set-env name=post_dir::${post_dir}"
+echo "slug=${slug}" >> $GITHUB_ENV
+echo "from_date=${from_date}" >> $GITHUB_ENV
+echo "to_date=${to_date}" >> $GITHUB_ENV
+echo "post_dir=${post_dir}" >> $GITHUB_ENV
 
 # mkdir, hero alias
 mkdir -p ${post_dir}/images
