@@ -4,8 +4,8 @@
 
 [context.deploy-preview.environment]
   GIT_LFS_ENABLED ="true"
-  NODE_VERSION = "14.x"
+  NODE_VERSION = "14.*"
 
 [context.production.environment]
   GIT_LFS_ENABLED ="true"
-  NODE_VERSION = "14.x"
+  NODE_VERSION = "14"
