@@ -45,10 +45,8 @@ jobs:
       uses: octokit/request-action@v2.x
       id: get_latest_release
       with:
-        route: POST /repos/{owner}/{repo}/pulls/{pull_number}/codespaces
+        route: POST /repos/{owner}/{repo}/pulls/${{ steps.create-pull-request.outputs.pull-request-number }}/codespaces
         owner: legnoh
         repo: leglog
-        pull_number: ${{ steps.create-pull-request.outputs.pull-request-number }}
       env:
         GITHUB_TOKEN: ${{ secrets.CODESPACE_TOKEN }}
-    
