@@ -44,7 +44,7 @@ jobs:
     - name: Make request body
       run: |
         erb pull_number=${{ steps.create-pull-request.outputs.pull-request-number }} \
-        .github/workflows/codespace-post-body.erb > ./codespace-req-body
+        .github/workflows/codespace-post-body.json.erb > ./codespace-req-body
         echo 'CODESPACE_REQ_BODY<<EOF' >> $GITHUB_ENV
         echo "$(cat ./codespace-req-body)" >> $GITHUB_ENV
         echo 'EOF' >> $GITHUB_ENV
@@ -53,7 +53,7 @@ jobs:
       id: get_latest_release
       with:
         route: POST /repos/legnoh/leglog/pulls/${{ steps.create-pull-request.outputs.pull-request-number }}/codespaces
-        body: ${{ toJSON(env.REQUEST_BODY) }}
+        body: ${{ env.REQUEST_BODY }}
       env:
         GITHUB_TOKEN: ${{ secrets.CODESPACE_TOKEN }}
         REQUEST_BODY: ${{ env.CODESPACE_REQ_BODY }}
