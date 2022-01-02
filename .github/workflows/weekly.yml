@@ -42,11 +42,9 @@ jobs:
         assignees: legnoh
         branch: ${{ env.slug }}
     - name: Create Codespace for PullRequest
-      uses: octokit/request-action@v2.x
-      id: get_latest_release
-      with:
-        route: POST /repos/legnoh/leglog/pulls/${{ steps.create-pull-request.outputs.pull-request-number }}/codespaces
-        body: "{\"location\": \"SoutheastAsia\"}"
-      env:
-        GITHUB_TOKEN: ${{ secrets.CODESPACE_TOKEN }}
-
+      run: |
+        curl -vvv -X "POST" "https://api.github.com/repos/legnoh/leglog/pulls/${{ steps.create-pull-request.outputs.pull-request-number }}/codespaces" \
+            -H 'Accept: application/vnd.github.v3+json' \
+            -H "Authorization: Bearer ${CODESPACE_TOKEN}" \
+            -H 'Content-Type: application/json; charset=utf-8' \
+            -d $'{"location": "SoutheastAsia"}'
