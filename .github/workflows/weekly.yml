@@ -41,12 +41,17 @@ jobs:
         labels: posts
         assignees: legnoh
         branch: ${{ env.slug }}
+    - name: Make request body
+      run: |
+        erb pull_number=${{ steps.create-pull-request.outputs.pull-request-number }} \
+        .github/workflows/codespace-post-body.erb > ./codespace-req-body
+        echo "CODESPACE_REQ_BODY=$(cat codespace-req-body)" >> $GITHUB_ENV
     - name: Create Codespace for PullRequest
       uses: octokit/request-action@v2.x
       id: get_latest_release
       with:
-        route: POST /repos/${{ env.GITHUB_REPOSITORY }}/pulls/${{ steps.create-pull-request.outputs.pull-request-number }}/codespaces
-        mediaType: "format: github.v3"
+        route: POST /repos/legnoh/leglog/pulls/${{ steps.create-pull-request.outputs.pull-request-number }}/codespaces
+        body: ${{ toJSON(env.REQUEST_BODY) }}
       env:
         GITHUB_TOKEN: ${{ secrets.CODESPACE_TOKEN }}
-        GITHUB_REPOSITORY: legnoh/leglog
+        REQUEST_BODY: ${{ env.CODESPACE_REQ_BODY }}
