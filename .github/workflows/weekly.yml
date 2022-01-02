@@ -45,7 +45,9 @@ jobs:
       run: |
         erb pull_number=${{ steps.create-pull-request.outputs.pull-request-number }} \
         .github/workflows/codespace-post-body.erb > ./codespace-req-body
-        echo "CODESPACE_REQ_BODY=$(cat codespace-req-body)" >> $GITHUB_ENV
+        echo 'CODESPACE_REQ_BODY<<EOF' >> $GITHUB_ENV
+        echo "$(cat ./codespace-req-body)" >> $GITHUB_ENV
+        echo 'EOF' >> $GITHUB_ENV
     - name: Create Codespace for PullRequest
       uses: octokit/request-action@v2.x
       id: get_latest_release
