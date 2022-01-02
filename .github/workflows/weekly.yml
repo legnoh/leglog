@@ -48,4 +48,4 @@ jobs:
         route: POST /repos/${{ env.GITHUB_REPOSITORY }}/pulls/${{ steps.create-pull-request.outputs.pull-request-number }}/codespaces
       env:
         GITHUB_TOKEN: ${{ secrets.CODESPACE_TOKEN }}
-        GITHUB_REPOSITORY: ${{ env.GITHUB_REPOSITORY }}
+        GITHUB_REPOSITORY: legnoh/leglog
