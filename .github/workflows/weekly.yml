@@ -46,7 +46,7 @@ jobs:
       id: get_latest_release
       with:
         route: POST /repos/${{ env.GITHUB_REPOSITORY }}/pulls/${{ steps.create-pull-request.outputs.pull-request-number }}/codespaces
-        mediaType: "format: raw"
+        mediaType: "format: github.v3"
       env:
         GITHUB_TOKEN: ${{ secrets.CODESPACE_TOKEN }}
         GITHUB_REPOSITORY: legnoh/leglog
