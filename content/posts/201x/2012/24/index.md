@@ -3,7 +3,6 @@ title: 2012-24 / PHP でエンコードの違う HTML を上手く捌く方法
 slug: 2012-24
 author: Ryoma Kai
 date: 2012-06-10
-hero: ./images/no-hero.png
 excerpt: 
 before_title: エンコードの違うHTMLを上手く捌く方法
 tags: ['php']

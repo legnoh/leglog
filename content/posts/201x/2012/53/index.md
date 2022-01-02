@@ -3,7 +3,6 @@ title: 2012-53 / 傍若無人
 slug: 2012-53
 author: Ryoma Kai
 date: 2012-12-31
-hero: ./images/no-hero.png
 excerpt: 
 before_title: 傍若無人
 tags: []

@@ -3,7 +3,7 @@ title: 2011-38 / Web表示機能追加 / twitter の URL の取り扱い方(自�
 slug: 2011-38
 author: Ryoma Kai
 date: 2011-09-12
-hero: ./images/20120126210527.jpeg
+banner: ./images/20120126210527.jpeg
 excerpt: 
 before_title: Web表示機能追加
 tags: ["twitter"]

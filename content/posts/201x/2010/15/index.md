@@ -3,7 +3,6 @@ title: 2010-15 / ひっそりと。
 slug: 2010-15
 author: Ryoma Kai
 date: 2010-04-08
-hero: ./images/no-hero.png
 excerpt: 
 before_title: ひっそりと。
 tags: []

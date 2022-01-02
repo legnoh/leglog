@@ -3,7 +3,7 @@ title: 2012-49 / Automator で Mail.app起動が便利すぎて禿げた
 slug: 2012-49
 author: Ryoma Kai
 date: 2012-12-05
-hero: ./images/20121230194836.jpeg
+banner: ./images/20121230194836.jpeg
 excerpt: 
 before_title: AutomatorでMail.app起動が便利すぎて禿げた
 tags: []

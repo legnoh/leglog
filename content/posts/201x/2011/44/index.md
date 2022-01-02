@@ -3,7 +3,7 @@ title: 2011-44 / HTML中の細かい文法ミス / $.getJSON/$.ajax が動かな
 slug: 2011-44
 author: Ryoma Kai
 date: 2011-10-23
-hero: ./images/20120126210528.jpeg
+banner: ./images/20120126210528.jpeg
 excerpt: 
 before_title: HTML中の細かい文法ミス / $.getJSON/$.ajax が動かない / 久々にクライアント更新
 tags: ["javascript", "twitter"]

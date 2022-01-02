@@ -3,7 +3,7 @@ title: 2018-29 / ふろ自動化
 slug: 2018-29
 author: Ryoma Kai
 date: 2018-07-15
-hero: ./images/20180715191240.jpeg
+banner: ./images/20180715191240.jpeg
 excerpt: 家に帰ると風呂が沸く仕組みを作った
 before_title: 2018-28
 tags: ["週報"]
@@ -84,4 +84,4 @@ tweet
 
 COMP Drink、1パック買って試しに飲んだのだけどアレはダメだ...（味が）。多少手間でもPowderで飲むのオススメです。
 
-<Tweet tweetLink="https://twitter.com/legnoh/status/1017922404218093568" align="center" />
+<Tweet tweetLink="https://twitter.com/legnoh/status/1017922404218093568" />

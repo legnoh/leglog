@@ -3,7 +3,7 @@ title: 2011-36 / 最終着地点 / 認証部実装
 slug: 2011-36
 author: Ryoma Kai
 date: 2011-08-31
-hero: ./images/20120126210525.jpeg
+banner: ./images/20120126210525.jpeg
 excerpt: 
 before_title: 最終着地点 / 認証部実装
 tags: ["javascript", "twitter"]

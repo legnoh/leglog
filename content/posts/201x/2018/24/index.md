@@ -3,7 +3,7 @@ title: 2018-24 / ゴミ箱, iPad, ZOZOSUIT の衝撃
 slug: 2018-24
 author: Ryoma Kai
 date: 2018-06-10
-hero: ./images/20180610125641.jpeg
+banner: ./images/20180610125641.jpeg
 excerpt: でかいゴミ箱はQoLをあげるらしい
 before_title: 2018-23
 tags: ["週報"]
@@ -36,7 +36,7 @@ done
 
 やりたかったのはこれ...だったのだが、思った以上にしんどいことが判明してぐんにょり。
 
-<Tweet tweetLink="https://twitter.com/legnoh/status/1005515109882445824" align="center" />
+<Tweet tweetLink="https://twitter.com/legnoh/status/1005515109882445824" />
 
 朝起きる前に今日のタスクを確認できたり、調子が悪いときでも体の向きを変えずに動画が見れたり、瞑想支援のツールで瞑想したまま眠りにつけたり、良い事もだいぶ多かっただけになかなか悔しい結果になった。今の所一旦諦めてはいるものの、形を変えてもう一度試したいなーとは思っている所。
 
@@ -44,8 +44,8 @@ done
 
 ようやく我が家にも届いて早速身体計測して見た所、ZOZO先生にすんごい煽られました。まじでヘコんでる（精神的に）。
 
-<Tweet tweetLink="https://twitter.com/legnoh/status/1004709148351590401" align="center" />
-<Tweet tweetLink="https://twitter.com/legnoh/status/1004711071733637121" align="center" />
+<Tweet tweetLink="https://twitter.com/legnoh/status/1004709148351590401" />
+<Tweet tweetLink="https://twitter.com/legnoh/status/1004711071733637121" />
 
 んでせっかく測ったんで何か買ってみるかと思い、リコメンドされたジーパンを即決。
 
@@ -80,5 +80,5 @@ tweet
 
 iPadのフィルムを貼るのに数回ミスしたり買うの失敗したりして悲しみに暮れていた。iPhoneに比べてハードルが高すぎるんだよなぁ...
 
-<Tweet tweetLink="https://twitter.com/legnoh/status/1004323933951127552" align="center" />
-<Tweet tweetLink="https://twitter.com/legnoh/status/1005093902292881408" align="center" />
+<Tweet tweetLink="https://twitter.com/legnoh/status/1004323933951127552" />
+<Tweet tweetLink="https://twitter.com/legnoh/status/1005093902292881408" />

@@ -3,7 +3,6 @@ title: 2012-34 / TermExtract関連まとめ
 slug: 2012-34
 author: Ryoma Kai
 date: 2012-08-20
-hero: ./images/no-hero.png
 excerpt: 
 before_title: TermExtract関連まとめ
 tags: []

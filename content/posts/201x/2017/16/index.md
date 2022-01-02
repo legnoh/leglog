@@ -3,7 +3,7 @@ title: 2017-16 / 4KテレビとPS4, WiMAX, 食事
 slug: 2017-16
 author: Ryoma Kai
 date: 2017-04-18
-hero: ./images/17587305_717656915073011_7899851158485729280_n.jpg
+banner: ./images/17587305_717656915073011_7899851158485729280_n.jpg
 excerpt: 清老頭は添えるだけ。
 before_title: 2017-16
 tags: ["週報"]
@@ -17,7 +17,7 @@ done
 
 ###  4KテレビとPS4Pro買った
 
-<Tweet tweetLink="https://twitter.com/legnoh/status/837876204677943297" align="center" />
+<Tweet tweetLink="https://twitter.com/legnoh/status/837876204677943297" />
 
 正直テレビ自体はどうでも良くて、PCを繋いで使える4K相当のディスプレイが欲しかった。
 
@@ -160,14 +160,14 @@ bookmark
 - [kaonashi-tyc/zi2zi: Learning Chinese Character style with conditional GAN](https://github.com/kaonashi-tyc/zi2zi)
 - [「業が深すぎる」遅延と戦う格闘ゲーマーが最後にたどり着いた結論、正しいのに字面が強すぎる - Togetter](https://togetter.com/li/1099473)
 
-<Tweet tweetLink="http://twitter.com/buddhobhagavan/status/659141226654908416" align="center" />
+<Tweet tweetLink="http://twitter.com/buddhobhagavan/status/659141226654908416" />
 
 tweet
 ----
 
 デブです。近いうちに良さそうなジムを見つけたのでまた行ってくる予定です。体脂肪は敵だ。
 
-<Tweet tweetLink="https://twitter.com/legnoh/status/851230898875846657" align="center" />
+<Tweet tweetLink="https://twitter.com/legnoh/status/851230898875846657" />
 
 麻雀談義ですがこの前三年ぶりに清老頭を和了しました。リア麻なんて3年で両手で数えるくらいしか打ててないはずなので本当こういう縁って不思議。
 

@@ -3,7 +3,6 @@ title: 2010-18 / 金週
 slug: 2010-18
 author: Ryoma Kai
 date: 2010-04-26
-hero: ./images/no-hero.png
 excerpt: 
 before_title: 金週プロローグ
 tags: []

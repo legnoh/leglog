@@ -3,7 +3,6 @@ title: 2013-03 / 卒論書くときに滅茶苦茶世話になったサイト
 slug: 2013-3
 author: Ryoma Kai
 date: 2013-01-10
-hero: ./images/no-hero.png
 excerpt: 
 before_title: 卒論書くときに滅茶苦茶世話になったサイト
 tags: []

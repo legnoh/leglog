@@ -3,7 +3,7 @@ title: 2016-44 / 引越(1.5年ぶり5回目)
 slug: 2016-44
 author: Ryoma Kai
 date: 2016-10-29
-hero: ./images/14540575_184041812045767_2459681354707632128_n.jpeg
+banner: ./images/14540575_184041812045767_2459681354707632128_n.jpeg
 excerpt: また引越してんなコイツ / ゲーセン, ApplePay, 家の鍵談議
 before_title: 2016-43
 tags: ["週報"]
@@ -82,13 +82,13 @@ bookmark
 - [「結婚」って〈ぶっちゃけ〉どうなの？ - Yahoo!ニュース](https://news.yahoo.co.jp/feature/38)
 - [モダン日本語フォント指定 - Speaker Deck](https://speakerdeck.com/tacamy/modanri-ben-yu-huontozhi-ding)
 
-`youtube: http://www.youtube.com/watch?v=fzQ6gRAEoy0`
+<YouTube youTubeId="fzQ6gRAEoy0" />
 
 tweet
 ----
 
 割と筋肉は最強の課題解決ソリューションだと思うので積極的にジムに行きたい。まだ行きたいだけ。
 
-<Tweet tweetLink="https://twitter.com/legnoh/status/788716542997336066" align="center" />
+<Tweet tweetLink="https://twitter.com/legnoh/status/788716542997336066" />
 
 ![](./images/20161029101410.jpeg)

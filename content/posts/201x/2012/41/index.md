@@ -3,7 +3,7 @@ title: 2012-41 / Ubuntu@VMwareFusion で OpenGazer を使う
 slug: 2012-41
 author: Ryoma Kai
 date: 2012-10-11
-hero: ./images/20121230191243.jpeg
+banner: ./images/20121230191243.jpeg
 excerpt: 
 before_title: Ubuntu@VMwareFusion で OpenGazer を使う
 tags: []

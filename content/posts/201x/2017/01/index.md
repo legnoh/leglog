@@ -3,7 +3,6 @@ title: 2017-01 / 年始所感
 slug: 2017-01
 author: Ryoma Kai
 date: 2017-01-03
-hero: ./images/no-hero.png
 excerpt: 2017年始所感的な長文
 before_title: 2017-01
 tags: ["週報"]
@@ -83,4 +82,4 @@ bookmark
 tweet
 ----
 
-<Tweet tweetLink="https://twitter.com/legnoh/status/814426679791808513" align="center" />
+<Tweet tweetLink="https://twitter.com/legnoh/status/814426679791808513" />

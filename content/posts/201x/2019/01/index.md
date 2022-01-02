@@ -3,7 +3,7 @@ title: 2019-01 / 年頭所感
 slug: 2019-01
 author: Ryoma Kai
 date: 2019-01-01
-hero: ./images/20181114183202.jpeg
+banner: ./images/20181114183202.jpeg
 excerpt: 放置され系家具No.1のぶら下がり健康機くん
 before_title: 2019-00
 tags: ["週報"]
@@ -155,4 +155,4 @@ tweet
 
 お金はまだまだ増えるらしいです。よかったですね。
 
-<Tweet tweetLink="https://twitter.com/legnoh/status/1080011936253657090" align="center" />
+<Tweet tweetLink="https://twitter.com/legnoh/status/1080011936253657090" />

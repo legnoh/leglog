@@ -3,7 +3,7 @@ title: 2017-21 / クリーニングは高い, 前歯の時限爆弾
 slug: 2017-21
 author: Ryoma Kai
 date: 2017-05-22
-hero: ./images/18380460_1931437090424019_7517588228644274176_n.jpeg
+banner: ./images/18380460_1931437090424019_7517588228644274176_n.jpeg
 excerpt: 環境には悪いが色々思い切った話
 before_title: 2017-21
 tags: ["週報"]
@@ -88,12 +88,12 @@ tweet
 
 例のやつ置いとくのでご自由にお使いください。
 
-<Tweet tweetLink="https://twitter.com/legnoh/status/863142347709702145" align="center" />
+<Tweet tweetLink="https://twitter.com/legnoh/status/863142347709702145" />
 
 痴漢冤罪の件考えてたが、とりあえず電話帳に会社の顧問弁護士の電話番号を入れておく（＝自分に不利な情報を言わない環境にする）、疑われた時に絶対に駅のホーム上から動かない（＝事務所に着いていかない）、ボイスメモを録る（＝証言をブラさない）っていう3点セットを覚えておくのが最良ってのが自分の結論でした。
 
-<Tweet tweetLink="https://twitter.com/legnoh/status/864469354255007744" align="center" />
-<Tweet tweetLink="https://twitter.com/legnoh/status/864472112207085569" align="center" />
+<Tweet tweetLink="https://twitter.com/legnoh/status/864469354255007744" />
+<Tweet tweetLink="https://twitter.com/legnoh/status/864472112207085569" />
 
 担々麺食ったのですがめちゃくちゃ辛くて数時間後に頭痛に苛まれたのでもう半年はいいかなって感じでした。
 

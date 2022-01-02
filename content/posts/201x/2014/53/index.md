@@ -3,11 +3,13 @@ title: 2014-53 / 2014年を終えて
 slug: 2014-53
 author: Ryoma Kai
 date: 2014-12-31
-hero: ./images/20150128024809.jpeg
+banner: ./images/20150128024809.jpeg
 excerpt: 
 before_title: 2014年を終えて
 tags: ["日常"]
 ---
+
+![](./images/20150128024809.jpeg)
 
 前からこっちを使いたいと書いておきつつ、結局使わずじまいで年を越すことになりそうなので、悔しいので一年終えました報告日記ぐらいはつけたいですね、ということで１つくらい記事を残します。
 
@@ -51,7 +53,7 @@ tags: ["日常"]
 公私共に関係諸氏の皆様。
 来年も引き続き、何卒宜しくお願い致します。
 
-`youtube: http://www.youtube.com/watch?v=mt7rGhAm2CY`
+<YouTube youTubeId="mt7rGhAm2CY" />
 
 Ps. 挿絵は今年一年の飯テロ画像+αにてお送り致しました。
 来年はダイエットもしないとな…。

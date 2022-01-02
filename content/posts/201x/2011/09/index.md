@@ -3,7 +3,6 @@ title: 2011-09 / 報告が遅れましたが
 slug: 2011-09
 author: Ryoma Kai
 date: 2011-02-23
-hero: ./images/no-hero.png
 excerpt: 
 before_title: 報告が遅れましたが
 tags: []

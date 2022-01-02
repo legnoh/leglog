@@ -3,7 +3,7 @@ title: 2012-23 / Hello legnoh.jp!!
 slug: 2012-23
 author: Ryoma Kai
 date: 2012-06-08
-hero: ./images/20121230171139.jpeg
+banner: ./images/20121230171139.jpeg
 excerpt: 
 before_title: Hello legnoh.jp!!
 tags: []

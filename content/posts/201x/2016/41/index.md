@@ -3,7 +3,6 @@ title: 2016-41 / 引越準備, 自転車通勤
 slug: 2016-41
 author: Ryoma Kai
 date: 2016-10-08
-hero: ./images/no-hero.png
 excerpt: 引越準備をしたり、自転車通勤申請をした回。 特に何もない回。
 before_title: 2016-40
 tags: ["週報"]
@@ -64,4 +63,4 @@ bookmark
 tweet
 ----
 
-<Tweet tweetLink="https://twitter.com/legnoh/status/784548644527730688" align="center" />
+<Tweet tweetLink="https://twitter.com/legnoh/status/784548644527730688" />

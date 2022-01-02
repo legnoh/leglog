@@ -3,7 +3,7 @@ title: <%= slug %> /
 slug: <%= slug %>
 author: Ryoma Kai
 date: <%= to_date %>
-hero: ./images/no-hero.png
+# banner: ./images/
 excerpt: 
 tags: ["週報"]
 blog_url: https://leglog.lkj.io/<%= slug %>
@@ -28,9 +28,9 @@ blog_url: https://leglog.lkj.io/<%= slug %>
 
 ## activity
 
-<Tweet tweetLink="" align="center" />
+<Tweet tweetLink="" />
 <Instagram instagramId="" />
-`youtube: `
+<YouTube youTubeId="" />
 
 - [Tweet Log - Twitter](https://twitter.com/search?q=(from%3Alegnoh)%20until%3A<%= to_date %>%20since%3A<%= from_date %>%20-filter%3Areplies&src=typed_query)
 - [Commit Log - GitHub](https://github.com/legnoh?tab=overview&from=<%= from_date %>&to=<%= to_date %>)

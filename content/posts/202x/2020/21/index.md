@@ -3,7 +3,7 @@ title: 2020-21 / WFHな自宅環境
 slug: 2020-21
 author: Ryoma Kai
 date: 2020-05-24
-hero: ./images/IMG_3207.jpeg
+banner: ./images/IMG_3207.jpeg
 excerpt: 
 tags: ["週報"]
 blog_url: https://leglog.lkj.io/2020-21
@@ -38,7 +38,7 @@ PCデスクをルータボックスにするのはかなり良い案ではあっ
 
 - [ルーター 収納ボックス rb-15s :MiHAMAの家具 - 通販 - Yahoo!ショッピング](https://store.shopping.yahoo.co.jp/mihama-kagu/rb-15s.html)
 
-<Tweet tweetLink="https://twitter.com/legnoh/status/1239918031536455683" align="center" />
+<Tweet tweetLink="https://twitter.com/legnoh/status/1239918031536455683" />
 
 加えて、残りのデバイス（ルータと直接接続する必要のないものたち）を収納するスペースの形について検討した。
 ただ、やはり以前ほどピッタリハマる家具はなかったので、発想を変えて、「自由に組み換えられるものなら良いのではないか？」と思い、自由に段組できるカラーボックスが良いのではないかと考えた。
@@ -49,7 +49,7 @@ PCデスクをルータボックスにするのはかなり良い案ではあっ
 
 - [組み換え自由な収納家具通販サイト - CUBE BOXα（キューブボックスα）公式ショップ](http://www.rencontre-semi.jp/)
 
-<Tweet tweetLink="https://twitter.com/legnoh/status/1246461640117272577" align="center" />
+<Tweet tweetLink="https://twitter.com/legnoh/status/1246461640117272577" />
 
 また、この製品が優れているのは、何か新しい収納が必要になった場合でも、1段3千円程度で組み換えて使える点にある。
 マイクロサービスよろしくコンポーネントが疎結合なので、入れ替えることが柔軟にできるというわけだ。
@@ -157,7 +157,7 @@ PCデスクをルータボックスにするのはかなり良い案ではあっ
 
 - [43UN700-B | モニター | Lgエレクトロニクス・ジャパン](https://www.lg.com/jp/monitor/lg-43UN700-B)
 
-`youtube: https://www.youtube.com/watch?v=MMGci63Wu9g`
+<YouTube youTubeId="MMGci63Wu9g" />
 
 そこでもう1つの候補になっているのが LG UltraFine 5K Display だ。
 こちらは接続面の問題を解消しており、相性の良さは最高な一方、ほぼMac以外のデバイスでは利用できないという振り切った性能になっている。

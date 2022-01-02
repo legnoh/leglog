@@ -3,7 +3,7 @@ title: 2016-35 / ユニクロの肌着, 引越検討など
 slug: 2016-35
 author: Ryoma Kai
 date: 2016-08-27
-hero: ./images/14099782_1786894748211529_1016917029_n.jpeg
+banner: ./images/14099782_1786894748211529_1016917029_n.jpeg
 excerpt: ユニクロのエアリズムは最高という話
 before_title: 2016-34
 tags: ["週報"]
@@ -55,7 +55,7 @@ bookmark
 - [PCデポ 高額解除料問題　大炎上の経緯とその背景(ヨッピー) - 個人 - Yahoo!ニュース](https://news.yahoo.co.jp/byline/yoppy/20160823-00061403/)
 - [ブロックチェーンは終わった－ビットコイン信奉者、台帳技術に見切り - Bloomberg](https://www.bloomberg.co.jp/news/articles/2016-08-23/OCCME16K50YE01)
 
-`youtube: https://www.youtube.com/embed/sk6uU8gb8PA`
+<YouTube youTubeId="sk6uU8gb8PA" />
 
 tweet
 ----
@@ -64,5 +64,5 @@ tweet
 
 <Instagram instagramId="BJj0x_4juRE" />
 <Instagram instagramId="BJaDinbDAZw" />
-<Tweet tweetLink="https://twitter.com/legnoh/status/768229586928754688" align="center" />
-<Tweet tweetLink="https://twitter.com/legnoh/status/768229686824493056" align="center" />
+<Tweet tweetLink="https://twitter.com/legnoh/status/768229586928754688" />
+<Tweet tweetLink="https://twitter.com/legnoh/status/768229686824493056" />

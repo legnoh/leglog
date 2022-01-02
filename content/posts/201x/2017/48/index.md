@@ -3,7 +3,7 @@ title: 2017-48 / Meetup, Concourse立ててる話
 slug: 2017-48
 author: Ryoma Kai
 date: 2017-11-26
-hero: ./images/23594290_488538458196107_434434803824066560_n.jpeg
+banner: ./images/23594290_488538458196107_434434803824066560_n.jpeg
 excerpt: Concourse Meetupでの発表報告, 引越計画をまた始めた話など
 before_title: 2017-48
 tags: ["週報"]
@@ -73,6 +73,6 @@ tweet
 
 先週は姉貴の結婚式で実家に帰っておりました。
 
-<Tweet tweetLink="https://twitter.com/legnoh/status/931844951100473345" align="center" />
+<Tweet tweetLink="https://twitter.com/legnoh/status/931844951100473345" />
 
 <Instagram instagramId="BbmBQgTABQz" />

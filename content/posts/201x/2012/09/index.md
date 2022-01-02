@@ -3,7 +3,6 @@ title: 2012-09 / Ust + Livetube + ニコ生 で天鳳の画面を 3面配信し�
 slug: 2012-09
 author: Ryoma Kai
 date: 2012-03-02
-hero: ./images/no-hero.png
 excerpt: 
 before_title: Ust+Livetube+ニコ生で天鳳の画面を3面配信した時のまとめ
 tags: []

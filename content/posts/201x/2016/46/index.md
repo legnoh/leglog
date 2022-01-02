@@ -3,7 +3,7 @@ title: 2016-46 / 横浜LTヨーソロー
 slug: 2016-46
 author: Ryoma Kai
 date: 2016-11-12
-hero: ./images/20161111200854.jpeg
+banner: ./images/20161111200854.jpeg
 excerpt: 船は添えるだけ。物欲と上着も。
 before_title: 2016-45
 tags: ["週報"]
@@ -66,5 +66,5 @@ tweet
 
 やっぱり今週は大統領選。ヒラリーが負けたのは仕方ない部分もあったものの、敗北宣言の時の力強い言葉が選挙前に出てきていればどれだけカッコ良かっただろう、って感じてしょうがない。
 
-<Tweet tweetLink="https://twitter.com/legnoh/status/796342006444212224" align="center" />
-<Tweet tweetLink="https://twitter.com/legnoh/status/796343505819795457" align="center" />
+<Tweet tweetLink="https://twitter.com/legnoh/status/796342006444212224" />
+<Tweet tweetLink="https://twitter.com/legnoh/status/796343505819795457" />

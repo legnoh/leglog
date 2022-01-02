@@ -3,7 +3,7 @@ title: 2017-06 / 目標練り直し, ジム, ロフトベッド
 slug: 2017-06
 author: Ryoma Kai
 date: 2017-02-05
-hero: ./images/C2M7dM2UQAEPiS0.jpeg
+banner: ./images/C2M7dM2UQAEPiS0.jpeg
 excerpt: 目標の話、 体が微妙なのでジムを始めた, ロフトベッド良いぞ談議
 before_title: 2017-05
 tags: ["週報"]
@@ -36,7 +36,7 @@ done
 
 ###  ロフトベッド購入
 
-<Tweet tweetLink="https://twitter.com/legnoh/status/820564931732832257" align="center" />
+<Tweet tweetLink="https://twitter.com/legnoh/status/820564931732832257" />
 
 前から買おうと思っていたロフトベッドを買った。天井高ギリギリだが意外となんとかなった感。マットレスも背が高めなので少し怖いなーと思っていたが、そこまで寝相が悪いわけではないのか、今のところ落ちそうになったとかヒヤッとしたとかいうことはない。
 
@@ -109,4 +109,4 @@ tweet
 
 [QuietComfort35](https://www.bose.co.jp/ja_jp/products/headphones/over_ear_headphones/quietcomfort-35-wireless.html)も良かったし、SONYの[h.ear](http://www.sony.jp/headphone/products/MDR-100ABN/)も良かったんだけど、イヤホン型の方が性にあってたみたいです。
 
-<Tweet tweetLink="https://twitter.com/legnoh/status/826792753178648581" align="center" />
+<Tweet tweetLink="https://twitter.com/legnoh/status/826792753178648581" />

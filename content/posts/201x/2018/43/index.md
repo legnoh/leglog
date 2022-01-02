@@ -3,7 +3,7 @@ title: 2018-43 / 家具刷新(後編)
 slug: 2018-43
 author: Ryoma Kai
 date: 2018-10-20
-hero: ./images/20181020153452.jpeg
+banner: ./images/20181020153452.jpeg
 excerpt: ベッドとかテレビスタンドとか換気口とか
 before_title: 2018-43
 tags: ["週報"]
@@ -177,5 +177,5 @@ tweet
 
 というわけでお迎えしました。初代からの買い替えなのでやっとSuicaを移しました。左手につけてるので**すげぇ改札通りにくいです！ファッキュー！**
 
-<Tweet tweetLink="https://twitter.com/legnoh/status/1051800893991997440" align="center" />
-<Tweet tweetLink="https://twitter.com/legnoh/status/1051806827514494977" align="center" />
+<Tweet tweetLink="https://twitter.com/legnoh/status/1051800893991997440" />
+<Tweet tweetLink="https://twitter.com/legnoh/status/1051806827514494977" />

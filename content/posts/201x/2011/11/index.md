@@ -3,13 +3,12 @@ title: 2011-11 / 数学問題botを一問解いてみた
 slug: 2011-11
 author: Ryoma Kai
 date: 2011-03-08
-hero: ./images/no-hero.png
 excerpt: 
 before_title: 数学問題botを一問解いてみた
 tags: []
 ---
 
-<Tweet tweetLink="mathematics_bot/status/44884896354807809" align="center" />
+<Tweet tweetLink="mathematics_bot/status/44884896354807809" />
 
 思わずへーと言いたくなる問題ですね。色々考えたのですが次の形が一番すっきりまとまりました。
 

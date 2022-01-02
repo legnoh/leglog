@@ -3,7 +3,7 @@ title: 2018-35 / SNSの役割を整理する
 slug: 2018-35
 author: Ryoma Kai
 date: 2018-09-01
-hero: ./images/38801515_244973572825308_2904190158943289344_n.jpeg
+banner: ./images/38801515_244973572825308_2904190158943289344_n.jpeg
 excerpt: ひどい！私とは遊びだったのね！
 before_title: 2018-34
 tags: ["週報"]

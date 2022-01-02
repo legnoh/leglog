@@ -3,7 +3,7 @@ title: 2011-13 / 一人ぶらっと天神へ
 slug: 2011-13
 author: Ryoma Kai
 date: 2011-03-20
-hero: ./images/20121230175029.jpeg
+banner: ./images/20121230175029.jpeg
 excerpt: 
 before_title: 一人ぶらっと天神へ
 tags: []

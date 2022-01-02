@@ -3,7 +3,7 @@ title: 2012-50 / メッセージ.app(iChat)で SkypeのIMを使う方法
 slug: 2012-50
 author: Ryoma Kai
 date: 2012-12-06
-hero: ./images/20121230193652.jpeg
+banner: ./images/20121230193652.jpeg
 excerpt: 
 before_title: メッセージ.app(iChat)でSkypeのIMを使う方法
 tags: []
@@ -29,7 +29,7 @@ Jabbimは、XMPPからFacebook、Twitterなど、他のサービスへの転送(
 
 ![](./images/20121230193634.jpeg)
 
-[Jabbim - Register Account](https://secure.jabbim.com/reg/)　からJabberIDを取得する。
+[Jabbim - Register Account](https://secure.jabbim.com/reg/) からJabberIDを取得する。
 ＠以下のドメインはどれを選んでも構わないと思うが、私は「jabbim.com」を使用して取得した。
 
 ## 2.Webクライアントからひとまずログイン
@@ -80,7 +80,7 @@ Webクライアントを閉じて、iChatからJabberIDでログインしよう�
 
 なお、ログインの途中で識別情報が認証できない、との通知が出るが、これは証明機関の CA Cert Signing Authority が無料の認証局だから？なのか、ちょっと原因はよく分からない。あくまで個人的な利用にとどめる方が無難かもしれない。
 
-<Tweet tweetLink="http://twitter.com/ockeghem/status/10580991345168384" align="center" />
+<Tweet tweetLink="http://twitter.com/ockeghem/status/10580991345168384" />
 
 ## 6.そのほか注意点・できないこと
 

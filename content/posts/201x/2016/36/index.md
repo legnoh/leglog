@@ -3,7 +3,7 @@ title: 2016-36 / ゴジラ, 引越調査
 slug: 2016-36
 author: Ryoma Kai
 date: 2016-09-03
-hero: ./images/14033503_108751386245766_552429304_n.jpeg
+banner: ./images/14033503_108751386245766_552429304_n.jpeg
 excerpt: 竹むらの揚げまんじゅうの話はありません。うまかったよ。
 before_title: 2016-35
 tags: ["週報"]
@@ -23,7 +23,7 @@ tags: ["週報"]
 
 しかしまぁ...自分はエヴァも新海作品もちゃんと追ってない人間だったのだけど、今更ながらこのおふたりの監督作品がメジャーにヒットを飛ばせる時代に変わったんだなぁと実感。作り手が作りたいものを作ってそれが広く受け入れられる、多くの人の賛同を得られるようになったっていう時代の変化は本当に幸せなことですね。
 
-<Tweet tweetLink="https://twitter.com/mtsujiji/status/769767045009252353" align="center" />
+<Tweet tweetLink="https://twitter.com/mtsujiji/status/769767045009252353" />
 
 ###  平日朝イチで王子駅まで行って、手前各駅のラッシュの混雑具合を確認する
 
@@ -76,5 +76,5 @@ tags: ["週報"]
 家の近くが雑木林になってるせいで、夜に家に帰ると必ずセミかカナブンかカメムシが顔に向かって飛んできます。  
 てか家の中でも色々出ます。助けてください...。
 
-<Tweet tweetLink="https://twitter.com/legnoh/status/769874463613530113" align="center" />
-<Tweet tweetLink="https://twitter.com/legnoh/status/769876468553744384" align="center" />
+<Tweet tweetLink="https://twitter.com/legnoh/status/769874463613530113" />
+<Tweet tweetLink="https://twitter.com/legnoh/status/769876468553744384" />

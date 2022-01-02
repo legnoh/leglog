@@ -3,7 +3,7 @@ title: 2010-25 / 色々めどが立ったので
 slug: 2010-25
 author: Ryoma Kai
 date: 2010-06-15
-hero: ./images/CIMG0058.jpeg
+banner: ./images/CIMG0058.jpeg
 excerpt: 
 before_title: 色々めどが立ったので
 tags: []

@@ -3,7 +3,7 @@ title: 2016-34 / goods, dotfile, comp, 花粉症対策
 slug: 2016-34
 author: Ryoma Kai
 date: 2016-08-20
-hero: ./images/13687314_158234314583186_1510218545_n.jpeg
+banner: ./images/13687314_158234314583186_1510218545_n.jpeg
 excerpt: goods, dotfile, compについての所感など。ブログ再開から1日目。
 before_title: 2016-33
 tags: ["週報"]
@@ -16,9 +16,9 @@ tags: ["週報"]
 done
 ----
 
-### goods 
+### goods
 
-<Tweet tweetLink="https://twitter.com/legnoh/status/718960742087544832" align="center" />
+<Tweet tweetLink="https://twitter.com/legnoh/status/718960742087544832" />
 
 - [legnoh/goods](https://github.com/legnoh/goods)
 
@@ -38,7 +38,7 @@ done
 
 ### comp
 
-- [COMP 完全食](http://www.comp.jp/img/ts_4.jpg)
+- [COMP](https://www.comp.jp/)
 
 <Instagram instagramId="BI6G_JVjc20" />
 
@@ -89,8 +89,8 @@ tweet
 
 立川でガルパンおじさんやって柏に帰ろうと思ったら、帰りの電車で乗り過ごしおじさんになっていた例です。ご確認ください。
 
-<Tweet tweetLink="https://twitter.com/legnoh/status/764425284540100608" align="center" />
-<Tweet tweetLink="https://twitter.com/legnoh/status/764462862337052673" align="center" />
-<Tweet tweetLink="https://twitter.com/legnoh/status/764462893370707972" align="center" />
-<Tweet tweetLink="https://twitter.com/legnoh/status/764484640207884289" align="center" />
-<Tweet tweetLink="https://twitter.com/legnoh/status/764484773880340485" align="center" />
+<Tweet tweetLink="https://twitter.com/legnoh/status/764425284540100608" />
+<Tweet tweetLink="https://twitter.com/legnoh/status/764462862337052673" />
+<Tweet tweetLink="https://twitter.com/legnoh/status/764462893370707972" />
+<Tweet tweetLink="https://twitter.com/legnoh/status/764484640207884289" />
+<Tweet tweetLink="https://twitter.com/legnoh/status/764484773880340485" />

@@ -3,7 +3,7 @@ title: 2019-36 / 自転車自慢をさせてくれ
 slug: 2019-36
 author: Ryoma Kai
 date: 2019-09-01
-hero: ./images/20190901172005.jpeg
+banner: ./images/20190901172005.jpeg
 excerpt: 最強の自転車を作る回
 before_title: 2019-35
 tags: ["週報"]
@@ -58,7 +58,7 @@ done
 
 「カッコいい」の定義は人それぞれあるわけだが、私の頭の中にはずっと焼き付いて離れない1つのイメージがあった。それが [COBI.bike](https://cobi.bike/) だ。これは自転車に装着するデバイスの1つだが、これ1つでフロントライト、リアライト、スマホ充電、リアルタイムナビゲーション、サイクルコンピュータ、Apple HealthKitと連携可能なエクササイズ測定などを実施できるダッシュボード的なデバイスだ。具体的なものは動画や解説記事を見てほしい。
 
-`youtube: https://www.youtube.com/watch?v=GNw025cmPy0`
+<YouTube youTubeId="GNw025cmPy0" />
 
 - [欲しい機能が全部入り！自転車をスマホで統合管理できる「COBI」 | FIND BIKE (ファインドバイク) - ロードバイク/クロスバイク/TTバイク情報](https://findbike.jp/news/20150316-cobi/)
 
@@ -140,7 +140,7 @@ COBI.bikeはeBike対応のものとノーマルのものがあり、どちらを
 
 U字ロック、もしくはチェーンであるのは避けられないとして、その上で次の候補となったのが [Ellipse](https://lattis.io/) だ。これは昔 Skylock という名前で発表されたもので、当時自分も動画やGIGAZINEの記事を見て、中々印象深かったのを覚えていた。
 
-`youtube: https://www.youtube.com/watch?v=6gyLPjDakAc`
+<YouTube youTubeId="6gyLPjDakAc" />
 
 - [アプリで鍵の施錠・解錠・盗難アラートまでこなす自転車ロック「Skylock」 - GIGAZINE](https://gigazine.net/news/20140516-skylock-bicycle/)
 
@@ -221,4 +221,4 @@ tweet
 
 IKEAのスマートブラインドの日本上陸をお待ちしています。
 
-<Tweet tweetLink="https://twitter.com/legnoh/status/1167437146157768705" align="center" />
+<Tweet tweetLink="https://twitter.com/legnoh/status/1167437146157768705" />

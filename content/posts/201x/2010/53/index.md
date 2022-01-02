@@ -3,7 +3,6 @@ title: 2010-53 / トラックバックテーマ 第1111回 「2011年の目標�
 slug: 2010-53
 author: Ryoma Kai
 date: 2010-12-30
-hero: ./images/no-hero.png
 excerpt: 
 before_title: トラックバックテーマ 第1111回「2011年の目標を漢字一文字で答えて下さい」
 tags: []

@@ -3,7 +3,7 @@ title: 2011-51 / ネスペ試験結果
 slug: 2011-51
 author: Ryoma Kai
 date: 2011-12-17
-hero: ./images/20111228144020.jpeg
+banner: ./images/20111228144020.jpeg
 excerpt: 
 before_title: ネスペ試験結果
 tags: []

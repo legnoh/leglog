@@ -3,7 +3,6 @@ title: 2011-46 / カプセルホテルすげぇ / GD・企業説明会参加
 slug: 2011-46
 author: Ryoma Kai
 date: 2011-11-06
-hero: ./images/no-hero.png
 excerpt: 
 before_title: カプセルホテルすげぇ
 tags: ["日常"]

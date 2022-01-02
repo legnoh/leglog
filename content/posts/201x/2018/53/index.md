@@ -3,7 +3,7 @@ title: 2018-53 / 同窓会, ゆく年くる年
 slug: 2018-53
 author: Ryoma Kai
 date: 2018-12-31
-hero: ./images/20181231102430.jpeg
+banner: ./images/20181231102430.jpeg
 excerpt: 同窓会の反省, 今年買ってよかったもの紹介
 before_title: 2018-52
 tags: ["週報"]
@@ -89,7 +89,7 @@ issue
 
 主に宅内で様々な変化を起こした年だったが、その中でも象徴的だったのは、やはり**オーバーナイター**かなと感じる。
 
-<Tweet tweetLink="https://twitter.com/legnoh/status/1040792584073826304" align="center" />
+<Tweet tweetLink="https://twitter.com/legnoh/status/1040792584073826304" />
 
 以前から卓上の小物入れにオーバーナイターは用いていたがサイズが小さく、少しの小物しか入れられなかったが、今年大きなサイズを買ったことで、普段出しっぱなしになるような薬やメガネ、キーホルダーや電子系の小物を入れる瀟洒な空間を作ることができて、様々な収納を最適化するきっかけを作ることができた。
 
@@ -126,4 +126,4 @@ tweet
 
 福袋で引きたいサーヴァントは決まりましたか？たゆまぬ鍛錬は運命力を引き寄せるのです。それでは良いお年をお迎えください。
 
-<Tweet tweetLink="https://twitter.com/legnoh/status/1079262417526222848" align="center" />
+<Tweet tweetLink="https://twitter.com/legnoh/status/1079262417526222848" />

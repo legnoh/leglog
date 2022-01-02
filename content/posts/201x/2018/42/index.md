@@ -3,7 +3,7 @@ title: 2018-42 / 家具刷新(前編) 電工2種受験
 slug: 2018-42
 author: Ryoma Kai
 date: 2018-10-14
-hero: ./images/42309524_492605917905797_2022829429485249318_n.jpeg
+banner: ./images/42309524_492605917905797_2022829429485249318_n.jpeg
 excerpt: 家具を色々取っ替えた話。ナチュラル大好き。
 before_title: 2018-40
 tags: ["週報"]
@@ -24,7 +24,7 @@ done
 
 #### 買換: オーバーナイター
 
-<Tweet tweetLink="https://twitter.com/legnoh/status/1040792584073826304" align="center" />
+<Tweet tweetLink="https://twitter.com/legnoh/status/1040792584073826304" />
 
 でかい家具の話の前に、まずこれがすべての始まりだった。
 
@@ -136,7 +136,7 @@ Raspberry piは本来の安定稼働には2.5Aの給電が必要で、1ポート
 
 先週、その1次試験となる筆記試験が行われ、結果は...
 
-<Tweet tweetLink="https://twitter.com/legnoh/status/1048795742221946880" align="center" />
+<Tweet tweetLink="https://twitter.com/legnoh/status/1048795742221946880" />
 
 というわけで60点合格のところを62点で通過する低空飛行感満載の合格を決めた。スリラーかよ。もっと普段から計画的にできてれば余裕合格できたんだろうなぁーとも思ったけど受かればいいんだよ受かれば！
 
@@ -176,4 +176,4 @@ tweet
 
 末長くお待ちしておりますダイソンさん。Xiaomiさんでもええで（ﾁﾗｯ
 
-<Tweet tweetLink="https://twitter.com/legnoh/status/1049194481419874304" align="center" />
+<Tweet tweetLink="https://twitter.com/legnoh/status/1049194481419874304" />

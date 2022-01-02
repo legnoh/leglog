@@ -3,7 +3,7 @@ title: 2018-31 / 健康診断, 避難グッズ見直し, テレワーク場所�
 slug: 2018-31
 author: Ryoma Kai
 date: 2018-07-29
-hero: ./images/IMG_2356.jpeg
+banner: ./images/IMG_2356.jpeg
 excerpt: テレワーク施設を色々試したレビューを主に掲載。 パセラ最強！ パセラ最強！
 before_title: 2018-30
 tags: ["週報"]
@@ -121,10 +121,10 @@ tweet
 
 あまり言ってなかったんですがLINEやめたみが出てきているので、できれば今後はTwitterかFacebookでお願いしたいのです。iMassageとかでも良いぞ。
 
-<Tweet tweetLink="https://twitter.com/legnoh/status/1023390827333046272" align="center" />
+<Tweet tweetLink="https://twitter.com/legnoh/status/1023390827333046272" />
 
 あと[FGOアーケード](https://arcade.fate-go.jp) やってきました。3セットくらい回した感想としては、あまりにも金を毟り取られるうえストーリーも新規要素も戦略性も何もないので、継続はないなーという感じです。
 
 [ワンダーランドウォーズ](https://wonder.sega.jp)、最高！
 
-<Tweet tweetLink="https://twitter.com/legnoh/status/1022786118868119552" align="center" />
+<Tweet tweetLink="https://twitter.com/legnoh/status/1022786118868119552" />

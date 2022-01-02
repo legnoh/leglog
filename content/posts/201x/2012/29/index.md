@@ -3,7 +3,7 @@ title: 2012-29 / さくらのレンタルサーバ/VPSに MediaWiki を導入の
 slug: 2012-29
 author: Ryoma Kai
 date: 2012-07-18
-hero: ./images/20121230185733.jpeg
+banner: ./images/20121230185733.jpeg
 excerpt: 
 before_title: さくらのレンタルサーバにMediaWikiを導入のまとめ
 tags: []

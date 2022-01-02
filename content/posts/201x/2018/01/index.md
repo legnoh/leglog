@@ -3,7 +3,6 @@ title: 2018-01 / 年頭所感
 slug: 2018-01
 author: Ryoma Kai
 date: 2018-01-04
-hero: ./images/no-hero.png
 excerpt: あとガチャ
 before_title: 2018-01
 tags: ["週報"]
@@ -65,5 +64,5 @@ tweet
 
 観念して巌窟王にフォウくん使いました。もう新しい星5ほしいとか言わない（解脱）
 
-<Tweet tweetLink="https://twitter.com/legnoh/status/947491096896028680" align="center" />
-<Tweet tweetLink="https://twitter.com/legnoh/status/947492951688482817" align="center" />
+<Tweet tweetLink="https://twitter.com/legnoh/status/947491096896028680" />
+<Tweet tweetLink="https://twitter.com/legnoh/status/947492951688482817" />

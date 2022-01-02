@@ -3,7 +3,6 @@ title: 2018-26 / 歩く習慣をつける
 slug: 2018-26
 author: Ryoma Kai
 date: 2018-06-24
-hero: ./images/no-hero.png
 excerpt: 歩く、歩く、歩く。
 before_title: 2018-25
 tags: ["週報"]
@@ -48,11 +47,11 @@ bookmark
 - [Twitterの暴挙に怒りの声続々 | TechCrunch Japan](https://jp.techcrunch.com/2018/06/22/2018-06-21-twitter-smytes-customers/)
 - [94歳が断言"読書が役立つのは30代まで" 外山滋比古さん「知的生活」の方法 | PRESIDENT Online（プレジデントオンライン）](https://president.jp/articles/-/24556)
 
-<Tweet tweetLink="https://twitter.com/yuyan_mtg/status/1007194124498288640" align="center" />
+<Tweet tweetLink="https://twitter.com/yuyan_mtg/status/1007194124498288640" />
 
 tweet
 ----
 
 fgoがそろそろ継続して2年になります。あっさり終わるかと思ってたけど息長いコンテンツになってきたなぁ。
 
-<Tweet tweetLink="https://twitter.com/legnoh/status/1010326012939329536" align="center" />
+<Tweet tweetLink="https://twitter.com/legnoh/status/1010326012939329536" />

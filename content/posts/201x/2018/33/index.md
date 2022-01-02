@@ -3,7 +3,7 @@ title: 2018-33 / 磯丸水産
 slug: 2018-33
 author: Ryoma Kai
 date: 2018-08-12
-hero: ./images/isomaru.png
+banner: ./images/isomaru.png
 excerpt: 真面目な話もあります。おやすみのルーチン化とか。
 before_title: 2018-32
 tags: ["週報"]
@@ -73,4 +73,4 @@ tweet
 
 クソカードゲーム買いました。今度僕のおうちに来る人いたらやりましょう。
 
-<Tweet tweetLink="https://twitter.com/legnoh/status/1027735200090865665" align="center" />
+<Tweet tweetLink="https://twitter.com/legnoh/status/1027735200090865665" />

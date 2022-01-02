@@ -3,7 +3,7 @@ title: 2019-34 / 食の最適化, 冷蔵庫を捨てた話
 slug: 2019-34
 author: Ryoma Kai
 date: 2019-08-18
-hero: ./images/20190818201028.jpeg
+banner: ./images/20190818201028.jpeg
 excerpt: これまでの食変遷を振り返る, 冷蔵庫なくても人間は意外と大丈夫らしい
 before_title: 2019-33
 tags: ["週報"]
@@ -28,7 +28,7 @@ done
 
 もちろん全て正解だと思うし、自分も何か目的はと言われると曖昧である。
 
-<Tweet tweetLink="https://twitter.com/legnoh/status/1114782926699356160" align="center" /> 
+<Tweet tweetLink="https://twitter.com/legnoh/status/1114782926699356160" /> 
 
 ### 主食：BASE BREAD + BASE NOODLE
 

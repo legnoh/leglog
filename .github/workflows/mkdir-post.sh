@@ -26,7 +26,7 @@ echo "post_dir=${post_dir}" >> $GITHUB_ENV
 
 # mkdir, hero alias
 mkdir -p ${post_dir}/images
-ln -s ../../../../../../src/assets/no-hero.png ${post_dir}/images/no-hero.png
+touch ${post_dir}/images/.gitkeep
 
 # make blog file
 erb from_date=${from_date} \
