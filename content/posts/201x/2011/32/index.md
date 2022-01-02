@@ -3,7 +3,6 @@ title: 2011-32 / 試験終了 / 今考えてること
 slug: 2011-32
 author: Ryoma Kai
 date: 2011-08-04
-hero: ./images/no-hero.png
 excerpt: 
 before_title: 試験終了 / 今考えてること
 tags: ["日常", "twitter"]

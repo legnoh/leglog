@@ -3,7 +3,6 @@ title: 2012-33 / iPhone設定＆ソフト備忘録
 slug: 2012-33
 author: Ryoma Kai
 date: 2012-08-13
-hero: ./images/no-hero.png
 excerpt: 
 before_title: iPhone設定＆ソフト備忘録
 tags: []

@@ -3,7 +3,7 @@ title: 2016-37 / 王子歩き, 名古屋出張, 体がボロボロな件
 slug: 2016-37
 author: Ryoma Kai
 date: 2016-09-10
-hero: ./images/20160910113302.jpeg
+banner: ./images/20160910113302.jpeg
 excerpt: 王子とか小竹向原を見つつ皮膚科と消化器内科の世話になる話。
 before_title: 2016-36
 tags: ["週報"]
@@ -59,7 +59,7 @@ COMPをまとめて一気買いしたので、これから本格的に飲んで�
 
 もともと、メジャーバージョンアップで乗り換えるのを自分のルールにしていたので、今回は乗り換え予定だったが、内容的には日本マンセーな仕様だったしガラパゴス化してたし草しか生えなかった。
 
-<Tweet tweetLink="https://twitter.com/kensuu/status/774034357413523456" align="center" />
+<Tweet tweetLink="https://twitter.com/kensuu/status/774034357413523456" />
 
 どの機種にするかでやや悩んで、結局レンズ2つとバッテリーの持ちを重視して、今と同じplusへの乗り換え、加えてジェットブラック・256GBへの乗り換えで、あまつさえ予約競争に乗り遅れたので11月の発送と完全に負け組になったのだが、Appleさんは予定を早めてくれるのがうまかったので、10月末くらいでひょっこり発送してくれるだろうという希望的観測をしている。今のiPhone6plusは電池も補償も切れてそろそろ限界なので、下取りに出して供養してあげたいところ。
 
@@ -91,5 +91,5 @@ tweet
 
 おっさんくささが増してきました。そういえばアラサーでまとめられる年齢なんだよね。人生つらたん(´・ω・`)
 
-<Tweet tweetLink="https://twitter.com/legnoh/status/774039978355470336" align="center" />
-<Tweet tweetLink="https://twitter.com/legnoh/status/774040301967060996" align="center" />
+<Tweet tweetLink="https://twitter.com/legnoh/status/774039978355470336" />
+<Tweet tweetLink="https://twitter.com/legnoh/status/774040301967060996" />

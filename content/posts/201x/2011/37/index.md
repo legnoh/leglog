@@ -3,7 +3,7 @@ title: 2011-37 / 中間地点突破
 slug: 2011-37
 author: Ryoma Kai
 date: 2011-09-10
-hero: ./images/20120126210526.jpeg
+banner: ./images/20120126210526.jpeg
 excerpt: 
 before_title: 中間地点突破
 tags: ["twitter"]

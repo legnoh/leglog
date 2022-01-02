@@ -3,7 +3,7 @@ title: 2020-24 / シダキュアとディスプレイ
 slug: 2020-24
 author: Ryoma Kai
 date: 2020-06-14
-hero: ./images/EZtLrklU8AAkVxc.jpeg
+banner: ./images/EZtLrklU8AAkVxc.jpeg
 excerpt: シダキュア、ディスプレイの話など。
 tags: ["週報"]
 blog_url: https://leglog.lkj.io/2020-24
@@ -15,7 +15,7 @@ blog_url: https://leglog.lkj.io/2020-24
 
 ### シダキュア（舌下免疫療法） 終了
 
-<Tweet tweetLink="https://twitter.com/legnoh/status/1268690936990593025" align="center" />
+<Tweet tweetLink="https://twitter.com/legnoh/status/1268690936990593025" />
 
 2016年から始めたシダトレン（舌下免疫療法）がついに今年6月で終了となった。
 
@@ -101,7 +101,7 @@ blog_url: https://leglog.lkj.io/2020-24
 
 こういうものの見方ってなかなかできないので身につまされたという話。思えば自分もこのコロナ禍で色々なことが分かったなと感じる次第。
 
-<Tweet tweetLink="https://twitter.com/legnoh/status/1271304491694878720" align="center" />
+<Tweet tweetLink="https://twitter.com/legnoh/status/1271304491694878720" />
 
 - [Tweet Log - Twitter](https://twitter.com/search?q=(from%3Alegnoh)%20until%3A2020-06-14%20since%3A2020-06-08%20-filter%3Areplies&src=typed_query)
 - [Commit Log - GitHub](https://github.com/legnoh?tab=overview&from=2020-06-08&to=2020-06-14)

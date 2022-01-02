@@ -3,7 +3,7 @@ title: 2011-23 / 東方幻想麻雀bot ver1.1公開 / アマレコTVでらいつ
 slug: 2011-23
 author: Ryoma Kai
 date: 2011-05-30
-hero: ./images/20121230182329.jpeg
+banner: ./images/20121230182329.jpeg
 excerpt: 東方幻想麻雀bot ver1.1の更新内容をお伝えします。 / アマレコTVでらいつべ幻麻配信の設定手順を詳しく解説しました。
 before_title: 東方幻想麻雀bot ver1.1公開
 tags: []

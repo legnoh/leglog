@@ -3,13 +3,15 @@ title: 2012-25 / Strengths Finderやってみた
 slug: 2012-25
 author: Ryoma Kai
 date: 2012-06-18
-hero: ./images/jacket.jpeg
+banner: ./images/jacket.jpeg
 excerpt: 
 before_title: Strengths Finderやってみた
 tags: []
 ---
 
 [さあ、才能(じぶん)に目覚めよう―あなたの5つの強みを見出し、活かす | マーカス バッキンガム, ドナルド・O. クリフトン, 田口 俊樹 |本 | 通販 | Amazon](https://www.amazon.co.jp/dp/4532149479)
+
+![](./images/jacket.jpeg)
 
 この本、10年以上前の本なのですが、
 

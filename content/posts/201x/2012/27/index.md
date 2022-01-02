@@ -3,7 +3,7 @@ title: 2012-27 / ステミキ設定@らいつべ用。
 slug: 2012-27
 author: Ryoma Kai
 date: 2012-07-07
-hero: ./images/20121230183651.jpeg
+banner: ./images/20121230183651.jpeg
 excerpt: 
 before_title: ステミキ設定@らいつべ用。
 tags: []

@@ -3,7 +3,7 @@ title: 2017-46 / メモ.app にデータ移動, Airpods, 住信SBIネット銀�
 slug: 2017-46
 author: Ryoma Kai
 date: 2017-11-12
-hero: ./images/23421174_289250071569044_222012249714196480_n.jpeg
+banner: ./images/23421174_289250071569044_222012249714196480_n.jpeg
 excerpt: 情報整理やヘッドホン談議
 before_title: 2017-46
 tags: ["週報"]
@@ -76,9 +76,5 @@ tweet
 ----
 
 博多ラーメンを食べるのです。
-
-[![](https://www.instagram.com/p/BbV92OsAsJA/media/?size=l)](https://www.instagram.com/p/BbV92OsAsJA/)
-
-[王道こそ至高。](https://www.instagram.com/p//)
 
 <Instagram instagramId="BbV92OsAsJA" />

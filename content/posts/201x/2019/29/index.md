@@ -3,7 +3,7 @@ title: 2019-29 / 英語進捗, 半年の振り返り
 slug: 2019-29
 author: Ryoma Kai
 date: 2019-07-15
-hero: ./images/20190715191453.jpeg
+banner: ./images/20190715191453.jpeg
 excerpt: 進捗そこそこ, あとは今年の目標を振り返る
 before_title: 2019-28
 tags: ["週報"]
@@ -114,4 +114,4 @@ tweet
 
 この辺りの話を来週したい。
 
-<Tweet tweetLink="https://twitter.com/legnoh/status/1148887769420201984" align="center" />
+<Tweet tweetLink="https://twitter.com/legnoh/status/1148887769420201984" />

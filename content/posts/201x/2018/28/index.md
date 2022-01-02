@@ -3,7 +3,6 @@ title: 2018-28 / ロールカーテン交換, ローズガーデン
 slug: 2018-28
 author: Ryoma Kai
 date: 2018-07-08
-hero: ./images/no-hero.png
 excerpt: なんか音が似てるなこの単語
 before_title: 2018-27
 tags: ["週報"]
@@ -50,7 +49,7 @@ tweet
 
 今度那須に行くのだけど、「ローズガーデン」というジャンルの園芸施設を見つけて、自分が好きな感じのアレだったのでアレすることにした。花園っていいよね。いいよね！！！！！！！
 
-<Tweet tweetLink="https://twitter.com/legnoh/status/1015604221842845697" align="center" />
+<Tweet tweetLink="https://twitter.com/legnoh/status/1015604221842845697" />
 
 日本には他にも色々バラ園があるらしいので、少し興味が湧いてきている。
 

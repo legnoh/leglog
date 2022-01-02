@@ -3,7 +3,7 @@ title: 2018-21 / HomeKitを使ってスマートホームを作り込んだ話
 slug: 2018-21
 author: Ryoma Kai
 date: 2018-05-20
-hero: ./images/20180520142812.jpeg
+banner: ./images/20180520142812.jpeg
 excerpt: 2018年5月時点でのHomeKitでの各デバイスのオススメなどについて書きました。一部古い情報もありますのでご注意ください。
 before_title: HomeKitを使ってスマートホームを作り込んだ話
 tags: ["HomeKit"]
@@ -324,7 +324,7 @@ Netatmoも国内販売がありますが、こちらは更に顔認識の機能�
 
 - [IT4WIFI The smart garage door interface | Nice](https://www.niceforyou.com/en/it4wifi)
 
-`youtube: https://www.youtube.com/watch?v=Lu96irSRGxE`
+<YouTube youTubeId="Lu96irSRGxE" />
 
 ## ブリッジ
 

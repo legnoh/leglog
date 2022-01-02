@@ -3,7 +3,6 @@ title: 2016-45 / LT, 自転車通勤開始
 slug: 2016-45
 author: Ryoma Kai
 date: 2016-11-05
-hero: ./images/no-hero.png
 excerpt: 自転車通勤感想、後LT申し込みました報告
 before_title: 2016-44
 tags: ["週報"]
@@ -63,4 +62,4 @@ bookmark
 tweet
 ----
 
-<Tweet tweetLink="https://twitter.com/legnoh/status/793760895063117824" align="center" />
+<Tweet tweetLink="https://twitter.com/legnoh/status/793760895063117824" />

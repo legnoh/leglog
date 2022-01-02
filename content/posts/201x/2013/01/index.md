@@ -3,7 +3,6 @@ title: 2013-01 / 謹賀新年
 slug: 2013-01
 author: Ryoma Kai
 date: 2013-01-01
-hero: ./images/no-hero.png
 excerpt: 
 before_title: 謹賀新年
 tags: []

@@ -3,7 +3,7 @@ title: 2017-44 / AppleTV, Caskroomなどの話など色々
 slug: 2017-44
 author: Ryoma Kai
 date: 2017-10-29
-hero: ./images/20171029213545.jpeg
+banner: ./images/20171029213545.jpeg
 excerpt: ゲーム, AppleTV, Elgato Eve, Caskroom の話。雑多に。
 before_title: 2017-44
 tags: ["週報"]
@@ -161,4 +161,4 @@ tweet
 
 GTDソフトも見直ししてるんですが、やっぱりOmniFocusから離れられそうにないです。Thingsも頑張れー。
 
-<Tweet tweetLink="https://twitter.com/legnoh/status/924329036100222978" align="center" />
+<Tweet tweetLink="https://twitter.com/legnoh/status/924329036100222978" />

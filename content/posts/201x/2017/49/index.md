@@ -3,7 +3,7 @@ title: 2017-49 / ヒゲ脱毛, YJTC2018 登壇決定
 slug: 2017-49
 author: Ryoma Kai
 date: 2017-12-03
-hero: ./images/24274684_434182053650878_1326571378891030528_n.jpeg
+banner: ./images/24274684_434182053650878_1326571378891030528_n.jpeg
 excerpt: ヒゲ脱毛を開始したのでその所感。 PC見直しの話も。
 before_title: 2017-49
 tags: ["週報"]
@@ -67,7 +67,7 @@ tweet
 
 早くHomeKit対応のエアコンを日本の各社は全速力で出していただきたく。うっかり [NatureRemo](http://nature.global)買っちゃったよ(´・ω・`)
 
-<Tweet tweetLink="https://twitter.com/legnoh/status/934695475738849280" align="center" />
+<Tweet tweetLink="https://twitter.com/legnoh/status/934695475738849280" />
 
 東京住まいの友人と毎年恒例の忘年会やりました。焼肉とVRばっかりやってました。
 

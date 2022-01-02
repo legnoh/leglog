@@ -3,7 +3,7 @@ title: 2020-20 / ブログ再構築
 slug: 2020-20
 author: Ryoma Kai
 date: 2020-05-17
-hero: ./images/leglog-logo.jpg
+banner: ./images/leglog-logo.jpg
 excerpt: ブログを GatsbyJS, Netlify, GitHub Actions, Gitpod などで再構築した話
 tags: ["週報"]
 blog_url: https://leglog.lkj.io/2020-20
@@ -153,7 +153,7 @@ Gitpodでは、[PullRequestやブランチごとにワークスペースを分�
 
 これを活用して、[Alfred](https://www.alfredapp.com/)や[Shortcut（iOS）](https://apps.apple.com/jp/app/id915249334)で今週の週番号を計算し、すぐに対象のブランチのGitpod URLが開けるようにした。
 
-<Tweet tweetLink="https://twitter.com/legnoh/status/1261911546709438465" align="center" />
+<Tweet tweetLink="https://twitter.com/legnoh/status/1261911546709438465" />
 
 ### 課題その8: ドメインについて
 
@@ -176,7 +176,7 @@ Gitpodでは、[PullRequestやブランチごとにワークスペースを分�
 - ダークモード対応。ロゴをダークモード対応で白黒反転させるために[SVGと仲良くなった](https://github.com/legnoh/leglog/blob/0b663926516f72f1bd201e601b2d1b2e34a06ca9/src/%40narative/gatsby-theme-novela/components/Logo.js)。[SVGR](https://github.com/gregberge/svgr)は神。
 - Notion時代に困っていたのがslug（ページURL)が無作為に振られてしまう件だが、これはテーマ任せなので動くか不安だった。今使っている[Novela](https://github.com/narative/gatsby-theme-novela) では結構自由が効くのだが、反面バグが多いテーマなのでどの程度ついていけるか次第。
 
-<Tweet tweetLink="https://twitter.com/legnoh/status/1256966909913776131" align="center" />
+<Tweet tweetLink="https://twitter.com/legnoh/status/1256966909913776131" />
 
 ## あえてやらなかったこと
 

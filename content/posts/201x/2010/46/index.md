@@ -3,7 +3,6 @@ title: 2010-46 / タイトル書いて 確定させたと思ったら公開さ�
 slug: 2010-46
 author: Ryoma Kai
 date: 2010-11-07
-hero: ./images/no-hero.png
 excerpt: 
 before_title: タイトル書いて確定させたと思ったら 公開されていた
 tags: []

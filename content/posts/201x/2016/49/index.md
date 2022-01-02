@@ -3,7 +3,7 @@ title: 2016-49 / 進捗、まだないってよ
 slug: 2016-49
 author: Ryoma Kai
 date: 2016-11-26
-hero: ./images/20161126124401.jpeg
+banner: ./images/20161126124401.jpeg
 excerpt: 進捗はある！あるが...まだ報告する場所の(ry
 before_title: 2016-47
 tags: ["週報"]
@@ -42,5 +42,5 @@ tweet
 
 遂に立川シネマシティの爆音上映のガルパンが終わったらしい。上映期間が平均1.5ヶ月程度の映画館の中で、1年以上上映して、なおかつお客が入り続けていたってのは凄まじいよね。ガルパンはいいぞ。
 
-<Tweet tweetLink="https://twitter.com/legnoh/status/802354810087313408" align="center" />
-<Tweet tweetLink="https://twitter.com/legnoh/status/800810783118540800" align="center" />
+<Tweet tweetLink="https://twitter.com/legnoh/status/802354810087313408" />
+<Tweet tweetLink="https://twitter.com/legnoh/status/800810783118540800" />

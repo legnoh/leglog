@@ -3,7 +3,6 @@ title: 2019-13 / 椅子と加湿器の話
 slug: 2019-13
 author: Ryoma Kai
 date: 2019-03-24
-hero: ./images/no-hero.png
 excerpt: ディスプレイが高くて首が辛い, 加湿器を HomeKit 対応させた話
 before_title: 2019-12
 tags: ["週報"]
@@ -50,7 +49,7 @@ tags: ["週報"]
 
 まだ簡単な動作しかできないものの、基本的な実装・仕様についてはやっと理解が進んだので、また4月にかけて他のプラグインの実装も進めたい。色々手直ししたいものもあるんでな...。
 
-<Tweet tweetLink="https://twitter.com/legnoh/status/1109776216410603526" align="center" />
+<Tweet tweetLink="https://twitter.com/legnoh/status/1109776216410603526" />
 
 ## Bookmark
 

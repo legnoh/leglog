@@ -3,7 +3,6 @@ title: 2017-45 / クラウドストレージ再考, 最近のスーツはすご�
 slug: 2017-45
 author: Ryoma Kai
 date: 2017-11-05
-hero: ./images/no-hero.png
 excerpt: クラウドストレージを整理したのと最近のスーツは高性能な話
 before_title: 2017-45
 tags: ["週報"]
@@ -95,4 +94,4 @@ tweet
 
 Heaven's feel見た。この人でなし！
 
-<Tweet tweetLink="https://twitter.com/legnoh/status/926235384106889218" align="center" />
+<Tweet tweetLink="https://twitter.com/legnoh/status/926235384106889218" />

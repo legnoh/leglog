@@ -3,7 +3,6 @@ title: 2016-48 / ゲームおわた, 歯科検診
 slug: 2016-48
 author: Ryoma Kai
 date: 2016-11-21
-hero: ./images/no-hero.png
 excerpt: ゲームが大体できたのと歯科検診で微妙だった話
 before_title: 2016-46
 tags: ["週報"]
@@ -73,4 +72,4 @@ tweet
 
 27って数字を見ると古田さんしか出てこないので来年はヤクルト頑張って欲しい。
 
-<Tweet tweetLink="https://twitter.com/legnoh/status/797479173300174849" align="center" />
+<Tweet tweetLink="https://twitter.com/legnoh/status/797479173300174849" />

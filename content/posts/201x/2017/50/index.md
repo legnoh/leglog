@@ -3,7 +3,7 @@ title: 2017-50 / 服の勉強, 引越準備
 slug: 2017-50
 author: Ryoma Kai
 date: 2017-12-11
-hero: ./images/81NVgx6btRL.jpeg
+banner: ./images/81NVgx6btRL.jpeg
 excerpt: 服を着るならこんなふうにしたいよねって話
 before_title: 2017-50
 tags: ["週報"]
@@ -69,4 +69,4 @@ tweet
 
 最近のライブは身分証必須なんだね。おじちゃんライブ行かなくなったからわからなんだ(´・ω・`)
 
-<Tweet tweetLink="https://twitter.com/legnoh/status/939403962695872517" align="center" />
+<Tweet tweetLink="https://twitter.com/legnoh/status/939403962695872517" />

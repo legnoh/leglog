@@ -3,7 +3,6 @@ title: 2012-48 / as3のXML解析にて嵌った
 slug: 2012-48
 author: Ryoma Kai
 date: 2012-11-30
-hero: ./images/no-hero.png
 excerpt: 
 before_title: as3のXML解析にて嵌った
 tags: []

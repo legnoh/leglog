@@ -3,7 +3,7 @@ title: 2018-23 / 引越完了, 睡眠改善, IoT
 slug: 2018-23
 author: Ryoma Kai
 date: 2018-06-03
-hero: ./images/20180603093704.jpeg
+banner: ./images/20180603093704.jpeg
 excerpt: 久々なので雑多に近況報告
 before_title: 2018-22
 tags: ["週報"]
@@ -87,4 +87,4 @@ tweet
 
 最近のアップデートで出てきたAirPlay2、なかなか楽しいんですが使いどころが難しい。。。
 
-<Tweet tweetLink="https://twitter.com/legnoh/status/1001611717837651969" align="center" />
+<Tweet tweetLink="https://twitter.com/legnoh/status/1001611717837651969" />

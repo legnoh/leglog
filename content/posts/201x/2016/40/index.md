@@ -3,7 +3,7 @@ title: 2016-40 / 内視鏡検査, 歩く速さは健康に比例する
 slug: 2016-40
 author: Ryoma Kai
 date: 2016-09-25
-hero: ./images/20160925095520.jpeg
+banner: ./images/20160925095520.jpeg
 excerpt: やたら健康意識が高いのに空振りするソリューション
 before_title: 2016-39
 tags: ["週報"]
@@ -73,6 +73,6 @@ tweet
 
 例の発表聞いて思ったこと。あくまでも個人の見解だけど、提供する価値の根源をどちらに主眼を置くかを各個人が選べると良いのかなぁとは思う。あと趣味を作ろう。
 
-<Tweet tweetLink="https://twitter.com/legnoh/status/779649359210086400" align="center" />
-<Tweet tweetLink="https://twitter.com/legnoh/status/779650273983602690" align="center" />
-<Tweet tweetLink="https://twitter.com/legnoh/status/779650476128112640" align="center" />
+<Tweet tweetLink="https://twitter.com/legnoh/status/779649359210086400" />
+<Tweet tweetLink="https://twitter.com/legnoh/status/779650273983602690" />
+<Tweet tweetLink="https://twitter.com/legnoh/status/779650476128112640" />

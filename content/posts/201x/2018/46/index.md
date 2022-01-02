@@ -3,7 +3,6 @@ title: 2018-46 / Apple デバイス整理
 slug: 2018-46
 author: Ryoma Kai
 date: 2018-11-11
-hero: ./images/no-hero.png
 excerpt: WWDC が当たりすぎて動悸が苦しくなった話
 before_title: 2018-45
 tags: ["週報"]
@@ -20,12 +19,12 @@ done
 
 ところが、一緒に出てきたMacBookAir, iPad Proまで**全部当たり**という、かつてない状況になってしまったため、様々な購入パターンを想定する羽目になった。
 
-<Tweet tweetLink="https://twitter.com/legnoh/status/1058720897157091328" align="center" />
-<Tweet tweetLink="https://twitter.com/legnoh/status/1058779366660833280" align="center" />
+<Tweet tweetLink="https://twitter.com/legnoh/status/1058720897157091328" />
+<Tweet tweetLink="https://twitter.com/legnoh/status/1058779366660833280" />
 
 結論として、数週思考を繰り返した結果、以下に落ち着いた。
 
-<Tweet tweetLink="https://twitter.com/legnoh/status/1059821457616687104" align="center" />
+<Tweet tweetLink="https://twitter.com/legnoh/status/1059821457616687104" />
 
 まず、自分のデバイスのユースケースを整理すると、
 
@@ -67,7 +66,7 @@ TouchBarを捨ててTouchIDだけを残し、かつUSB-Cへの統一、基本性
 
 であれば、Macの機能を最低限まで抑えつつ、使える時はしっかり使える１台を作る、というポリシーに立って、Mac mini を改めて選ぶことにした。
 
-<Tweet tweetLink="https://twitter.com/legnoh/status/1061271219096379399" align="center" />
+<Tweet tweetLink="https://twitter.com/legnoh/status/1061271219096379399" />
 
 これまでのMac mini(Late 2014)の最低グレード品は、正直ゴミと言って差し支えない性能だった。自分は今回の新型Mac miniが出るまでの中継用途のマシンとしてMac miniを以前購入し、iMacから乗り換えるという移行計画を以前から温めてはいたのだが、最新のmacOSのインストールにすらカラーボールが回るレベルで、計画を中断してすぐに手放してしまっていた。
 
@@ -110,4 +109,4 @@ tweet
 
 今くらいの髪型が自分の理想的な状態ではあるので、しばらくはこれでキープしたい。
 
-<Tweet tweetLink="https://twitter.com/legnoh/status/1058298943744798720" align="center" />
+<Tweet tweetLink="https://twitter.com/legnoh/status/1058298943744798720" />

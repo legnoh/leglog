@@ -3,7 +3,6 @@ title: 2010-28 / 新物探し
 slug: 2010-28
 author: Ryoma Kai
 date: 2010-07-06
-hero: ./images/no-hero.png
 excerpt: 
 before_title: 新物探し
 tags: []

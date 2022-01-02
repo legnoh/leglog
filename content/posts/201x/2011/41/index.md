@@ -3,7 +3,6 @@ title: 2011-41 / ネットワークスペシャリスト試験を受けます
 slug: 2011-41
 author: Ryoma Kai
 date: 2011-10-02
-hero: ./images/no-hero.png
 excerpt: 
 before_title: ネットワークスペシャリスト試験を受けます
 tags: ["試験"]

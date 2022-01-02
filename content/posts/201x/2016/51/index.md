@@ -3,7 +3,7 @@ title: 2016-51 / 睡眠改善
 slug: 2016-51
 author: Ryoma Kai
 date: 2016-12-11
-hero: ./images/20161211184321.jpeg
+banner: ./images/20161211184321.jpeg
 excerpt: 睡眠の重要性！ 後テレビの話
 before_title: 2016-49
 tags: ["週報"]
@@ -112,7 +112,7 @@ tweet
 
 ツイートしてる暇があったらさっさと救急車呼ぼうねほんと...。吐血は大小あれ問答無用で救急車呼んで良いレベルだと思うし、判断できないならすぐ#7119に電話したほうが良い。いのちだいじにしよう。
 
-<Tweet tweetLink="https://twitter.com/legnoh/status/805050935621730304" align="center" />
+<Tweet tweetLink="https://twitter.com/legnoh/status/805050935621730304" />
 
 このあたりも見ておきましょう。
 
@@ -120,4 +120,4 @@ tweet
 
 自分の作ったものが永年残るのって幸せなことだと思うんですが、ほとんどのものが数年で消えていくんですよね。音楽とか絵とか、芸術系の分野に比べると、エンジニアリングの成果物の寿命って本当に短くて泣けてくる。
 
-<Tweet tweetLink="https://twitter.com/legnoh/status/807497607660453888" align="center" />
+<Tweet tweetLink="https://twitter.com/legnoh/status/807497607660453888" />

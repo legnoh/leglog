@@ -3,7 +3,6 @@ title: 2018-30 / 特にない
 slug: 2018-30
 author: Ryoma Kai
 date: 2018-07-22
-hero: ./images/no-hero.png
 excerpt: goods 更新しただけ
 before_title: 2018-29
 tags: ["週報"]
@@ -45,4 +44,4 @@ tweet
 
 第二章お疲れ様でした。ほんま第二部はな...クリアしてもつらい気持ちになるねんな...
 
-<Tweet tweetLink="https://twitter.com/legnoh/status/1020563616414625793" align="center" />
+<Tweet tweetLink="https://twitter.com/legnoh/status/1020563616414625793" />

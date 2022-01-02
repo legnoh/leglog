@@ -3,7 +3,6 @@ title: 2013-14 / マジで！？
 slug: 2013-14
 author: Ryoma Kai
 date: 2013-04-01
-hero: ./images/no-hero.png
 excerpt: 
 before_title: マジで！？
 tags: []

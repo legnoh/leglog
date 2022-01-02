@@ -3,7 +3,6 @@ title: 2011-08 / 後期終了
 slug: 2011-08
 author: Ryoma Kai
 date: 2011-02-15
-hero: ./images/no-hero.png
 excerpt: 
 before_title: 後期終了
 tags: []

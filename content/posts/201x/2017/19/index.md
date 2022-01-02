@@ -3,7 +3,6 @@ title: 2017-19 / 映画, ゲーム, シャツ, さわやか
 slug: 2017-19
 author: Ryoma Kai
 date: 2017-05-08
-hero: ./images/no-hero.png
 excerpt: この世界の片隅にを見た話。 wlw-locate-kml など。ハンバーグ！
 before_title: 2017-19
 tags: ["週報"]
@@ -20,7 +19,7 @@ done
 
 この回は監督の舞台挨拶があるとのことで、初視聴者には知らない話もいくらかあったものの、この戦時を生きた人たちもこうやって生を謳歌していたんだなーと思うと、考えさせられるというよりは日常はどんな時代にも存在していたことなんだよな、という当たり前のことを改めて実感した感じだった。その日常は現代の自分たちより相当に過酷だったけれど、それでも笑って明日を迎えられるのは大事なことなんだと思う。
 
-<Tweet tweetLink="https://twitter.com/konosekai_movie/status/857926178786627584" align="center" /> 
+<Tweet tweetLink="https://twitter.com/konosekai_movie/status/857926178786627584" /> 
 
 ###  ゲーム進捗
 
@@ -52,7 +51,7 @@ done
 
 - [legnoh/wlw-locate-kml](https://github.com/legnoh/wlw-locate-kml)
 
-<Tweet tweetLink="https://twitter.com/legnoh/status/859136443561590785" align="center" />
+<Tweet tweetLink="https://twitter.com/legnoh/status/859136443561590785" />
 
 ###  新しいシャツの調達
 
@@ -134,8 +133,8 @@ tweet
 
 御殿場は青かった（新緑）
 
-<Tweet tweetLink="https://twitter.com/legnoh/status/861083597779771392" align="center" />
+<Tweet tweetLink="https://twitter.com/legnoh/status/861083597779771392" />
 
 まぁ旅行先でもゲーセン探してたからもはや習慣化してるなこいつ
 
-<Tweet tweetLink="https://twitter.com/legnoh/status/861084260341567488" align="center" />
+<Tweet tweetLink="https://twitter.com/legnoh/status/861084260341567488" />

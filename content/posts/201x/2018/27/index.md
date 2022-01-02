@@ -3,7 +3,7 @@ title: 2018-27 / 食洗機導入
 slug: 2018-27
 author: Ryoma Kai
 date: 2018-07-01
-hero: ./images/Dg_ZDzQVQAUHh1I.jpeg
+banner: ./images/Dg_ZDzQVQAUHh1I.jpeg
 excerpt: 
 before_title: 2018-26
 tags: ["週報"]
@@ -14,7 +14,7 @@ done
 
 ###  食洗機導入
 
-<Tweet tweetLink="https://twitter.com/legnoh/status/1013267113752969217" align="center" />
+<Tweet tweetLink="https://twitter.com/legnoh/status/1013267113752969217" />
 
 食洗機を買うのは実は初めてではなく、これで二度目。初代は柏市にいた頃に買ったのだが、この時の体験がとても良く、置けるキッチンの家に引っ越したら絶対に買おうと決めていた。今の家に越してから即注文をかけていたのだけど、メーカー欠品が続いていて2ヶ月近く待ち、ようやく今週導入完了した。
 
@@ -45,6 +45,6 @@ tweet
 
 久しぶりのハンバーグです。
 
-<Tweet tweetLink="https://twitter.com/legnoh/status/1012997804157960192" align="center" />
+<Tweet tweetLink="https://twitter.com/legnoh/status/1012997804157960192" />
 
 [^1]: もちろん出すかどうかはかなり悩んだ。結果的には実名のメリットが多いのと、実名でコミュニケーションが取れるネットであってほしい、という個人的な願いもあって、大学を卒業したタイミングで晒すことにした。

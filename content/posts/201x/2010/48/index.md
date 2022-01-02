@@ -3,7 +3,6 @@ title: 2010-48 / 全然落ち着いてなかった
 slug: 2010-48
 author: Ryoma Kai
 date: 2010-11-22
-hero: ./images/no-hero.png
 excerpt: 
 before_title: 全然落ち着いてなかった
 tags: []

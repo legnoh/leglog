@@ -3,7 +3,6 @@ title: 2010-32 / 試験期間
 slug: 2010-32
 author: Ryoma Kai
 date: 2010-08-03
-hero: ./images/no-hero.png
 excerpt: 
 before_title: 試験期間
 tags: []

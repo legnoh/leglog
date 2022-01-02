@@ -3,7 +3,6 @@ title: 2013-02 / iPhoneの使用契約書 18項目に関する主観を綴って
 slug: 2013-02
 author: Ryoma Kai
 date: 2013-01-07
-hero: ./images/no-hero.png
 excerpt: 
 before_title: iPhoneの使用契約書18項目に関する主観を綴ってみる
 tags: []

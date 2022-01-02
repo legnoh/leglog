@@ -3,7 +3,6 @@ title: 2017-17 / ジム下見とマストドンの話
 slug: 2017-17
 author: Ryoma Kai
 date: 2017-04-23
-hero: ./images/no-hero.png
 excerpt: 区立体育館は良いぞという話
 before_title: 2017-17
 tags: ["週報"]
@@ -14,7 +13,7 @@ done
 
 ### ジム下見的な
 
-<Tweet tweetLink="https://twitter.com/legnoh/status/856085089167564800" align="center" />
+<Tweet tweetLink="https://twitter.com/legnoh/status/856085089167564800" />
 
 ジム通いを復活させたいなぁと思いつつ、東十条のセントラルやNAS赤坂を数回行ったのだけど、やはり自分の生活動線から離れていてちょっち行きづらいなぁと思っていた所、滝野川体育館というウルトラCを見つけてしまったので試しに行ってみることにした。
 
@@ -58,4 +57,4 @@ bookmark
 tweet/toot
 ----
 
-<Tweet tweetLink="https://twitter.com/legnoh/status/853902560024961025" align="center" />
+<Tweet tweetLink="https://twitter.com/legnoh/status/853902560024961025" />

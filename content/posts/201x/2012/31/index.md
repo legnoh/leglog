@@ -3,7 +3,6 @@ title: 2012-31 / Office2013 Preview入れた
 slug: 2012-31
 author: Ryoma Kai
 date: 2012-07-31
-hero: ./images/no-hero.png
 excerpt: 
 before_title: Office2013 Preview入れた
 tags: []
