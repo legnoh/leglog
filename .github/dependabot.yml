@@ -1,21 +1,12 @@
 version: 2
 updates:
-- package-ecosystem: npm
-  directory: "/"
-  schedule:
-    interval: monthly
-    time: "20:00"
-  open-pull-requests-limit: 10
-  ignore:
-  - dependency-name: gatsby
-    versions:
-    - 2.29.3
-    - 2.31.1
-    - 2.32.11
-    - 2.32.9
-- package-ecosystem: github-actions
-  directory: "/"
-  schedule:
-    interval: daily
-    time: "20:00"
-  open-pull-requests-limit: 10
+  - package-ecosystem: github-actions
+    directory: "/"
+    schedule:
+      interval: daily
+      time: "04:00" # 13:00(UTC+9)
+  - package-ecosystem: npm
+    directory: "/"
+    schedule:
+      interval: daily
+      time: "04:00" # 13:00(UTC+9)
