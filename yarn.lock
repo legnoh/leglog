@@ -6135,7 +6135,7 @@ gatsby-cli@^4.11.1:
     yoga-layout-prebuilt "^1.10.0"
     yurnalist "^2.1.0"
 
-gatsby-core-utils@^3.10.0, gatsby-core-utils@^3.11.1, gatsby-core-utils@^3.8.2, gatsby-core-utils@^3.9.1:
+gatsby-core-utils@^3.10.0, gatsby-core-utils@^3.11.1, gatsby-core-utils@^3.8.2:
   version "3.11.1"
   resolved "https://registry.yarnpkg.com/gatsby-core-utils/-/gatsby-core-utils-3.11.1.tgz#ea87c1d3aa45c26c9ea32b8e8b029afe6a56f8c7"
   integrity sha512-Op9/uihtcsDLlZDfRsGJ1ya2mFx2YH9Zmx93bawElZ0YpIzKjCkNTp+I5i5UANxvs5I+Fljl0WHQRudMWg+fWA==
@@ -6244,14 +6244,14 @@ gatsby-plugin-feed@^4.11.1:
     lodash.merge "^4.6.2"
     rss "^1.2.2"
 
-gatsby-plugin-manifest@^4.9.1:
-  version "4.9.1"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-manifest/-/gatsby-plugin-manifest-4.9.1.tgz#20513c7d942b424795b802506893c0f909c69b7a"
-  integrity sha512-Fye2vr7ioc7ETVKdCfpbc5ByU28+EB7ocqSORbazPgAT8OiPazpaBAYm98BONceuK3WaxGoEXMsmwmNBIIPjRA==
+gatsby-plugin-manifest@^4.11.1:
+  version "4.11.1"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-manifest/-/gatsby-plugin-manifest-4.11.1.tgz#fb3061c2e989acb2634719c1e8645fd1388f4b3b"
+  integrity sha512-m5cdi6KBc8+zmnlIfEh92sXpFEUfjuCrjM5BKc8e6v0jxJS0CqVrZOyT12mT2yq9H12UrkzFx1qaI8e2/IJiGA==
   dependencies:
     "@babel/runtime" "^7.15.4"
-    gatsby-core-utils "^3.9.1"
-    gatsby-plugin-utils "^3.3.0"
+    gatsby-core-utils "^3.11.1"
+    gatsby-plugin-utils "^3.5.1"
     semver "^7.3.5"
     sharp "^0.30.1"
 
@@ -6381,7 +6381,7 @@ gatsby-plugin-typescript@^4.11.1:
     "@babel/runtime" "^7.15.4"
     babel-plugin-remove-graphql-queries "^4.11.1"
 
-gatsby-plugin-utils@^3.3.0, gatsby-plugin-utils@^3.4.1, gatsby-plugin-utils@^3.5.1:
+gatsby-plugin-utils@^3.4.1, gatsby-plugin-utils@^3.5.1:
   version "3.5.1"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-utils/-/gatsby-plugin-utils-3.5.1.tgz#9aed9deec0f4ee82bfc7390f735b9455ca4f8494"
   integrity sha512-RZXUvwQjTnkukMfAGr+DCz/qZj7g6REljTmQS43MaovWO4Yf4YGvs+1Leays7J0XmqN2I3SIZGBgt4tgKCsNVQ==
