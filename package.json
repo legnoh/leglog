@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "@lekoarts/gatsby-theme-minimal-blog": "^4.1.5",
-    "gatsby": "^4.13.0",
+    "gatsby": "^4.13.1",
     "gatsby-omni-font-loader": "^2.0.0",
     "gatsby-plugin-feed": "^4.13.0",
     "gatsby-plugin-manifest": "^4.13.0",
