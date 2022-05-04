@@ -17,13 +17,13 @@ create_codespace_for_pr() {
     local pr_number=${4:?}
     local location=${5:?}
 
-    echo "Creating Codespace: ${owner}/${repo}/${pr_number}@${ws}"
+    echo "Creating Codespace: ${owner}/${repo}/${pr_number}@${location}"
 
     curl -f -X "POST" "https://api.github.com/repos/${owner}/${repo}/pulls/${pr_number}/codespaces" \
             -H 'Accept: application/vnd.github.v3+json' \
             -H "Authorization: Bearer ${token}" \
             -H 'Content-Type: application/json; charset=utf-8' \
-            -d $'{"location": "SouthEastAsia"}'
+            -d $'{"location": "${location}"}'
 }
 
 get_pullreq_unused_spaces() {
