@@ -13,7 +13,8 @@ jobs:
     - name: Cleanup Codespace for PullRequest
       run: |
         source .github/workflows/github_api_codespaces.sh
-        target_workspaces=$(get_pullreq_unused_spaces ${{ secrets.CODESPACE_TOKEN }} legnoh leglog ${GITHUB_REF_NAME})
-        echo ${target_workspaces} | while read ws; do
-          delete_codespace ${{ secrets.CODESPACE_TOKEN }} legnoh ${ws}
+        target_codespaces=$(get_pullreq_unused_spaces "${{ secrets.CODESPACE_TOKEN }}" "legnoh" "leglog" "${GITHUB_REF_NAME}")
+        echo ${target_codespaces}
+        echo ${target_codespaces} | while read line; do
+          delete_codespace "${{ secrets.CODESPACE_TOKEN }}" "legnoh" "${line}"
         done
