@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
-    - uses: FranzDiebold/github-env-vars-action@v1.2.1
+    - uses: FranzDiebold/github-env-vars-action@v2.3.1
     - name: Cleanup Codespace for PullRequest
       run: |
         source .github/workflows/github_api.sh
