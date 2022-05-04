@@ -7,7 +7,7 @@ get_branch_name_by_pr_number(){
             -H 'Accept: application/vnd.github.v3+json' \
             -H "Authorization: Bearer ${token}" \
             -H 'Content-Type: application/json; charset=utf-8' \
-            | jq -r ".head.ref")
+            | jq -r ".head.ref"
 }
 
 create_codespace_for_pr() {
