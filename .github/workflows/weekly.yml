@@ -43,10 +43,5 @@ jobs:
         branch: ${{ env.slug }}
     - name: Create Codespace for PullRequest
       run: |
-        curl -vvv -f -X "POST" "https://api.github.com/repos/legnoh/leglog/pulls/${{ steps.create-pull-request.outputs.pull-request-number }}/codespaces" \
-            -H 'Accept: application/vnd.github.v3+json' \
-            -H "Authorization: Bearer ${CODESPACE_TOKEN}" \
-            -H 'Content-Type: application/json; charset=utf-8' \
-            -d $'{"location": "SouthEastAsia"}'
-      env:
-        CODESPACE_TOKEN: ${{ secrets.CODESPACE_TOKEN }}
+        source .github/workflows/github_api_codespaces.sh
+        create_codespace_for_pr ${{ secrets.CODESPACE_TOKEN }} legnoh leglog ${{ steps.create-pull-request.outputs.pull-request-number }} SouthEastAsia

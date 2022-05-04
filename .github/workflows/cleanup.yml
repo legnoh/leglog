@@ -1,0 +1,19 @@
+name: Cleanup Codespaces
+on:
+  pull_request:
+    types:
+      - "closed"
+
+jobs:
+  cleanup:
+    name: Cleanup
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Cleanup Codespace for PullRequest
+      run: |
+        source .github/workflows/github_api_codespaces.sh
+        target_workspaces=$(get_pullreq_unused_spaces ${{ secrets.CODESPACE_TOKEN }} legnoh leglog ${{ env.GITHUB_REF_NAME }})
+        echo ${target_workspaces} | while read ws; do
+          delete_codespace ${{ secrets.CODESPACE_TOKEN }} legnoh ${ws}
+        done
