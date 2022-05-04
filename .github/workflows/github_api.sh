@@ -41,12 +41,11 @@ get_pullreq_unused_spaces() {
 
 delete_codespace() {
     local token=${1:?}
-    local owner=${2:?}
-    local cs=${3:?}
+    local cs=${2:?}
 
-    echo "Deleting Codespace: ${owner}/${cs}"
+    echo "Deleting Codespace: ${cs}"
     
-    curl -f -X "DELETE" "https://api.github.com/repos/${owner}/codespaces/${cs}" \
+    curl -f -X "DELETE" "https://api.github.com/user/codespaces/${cs}" \
             -H 'Accept: application/vnd.github.v3+json' \
             -H "Authorization: Bearer ${token}" \
             -H 'Content-Type: application/json; charset=utf-8'
