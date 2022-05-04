@@ -19,8 +19,6 @@ jobs:
         export PR_NUMBER="${GITHUB_REF_NAME%/merge}"
         export PR_BRANCH_NAME=$(get_branch_name_by_pr_number ${{ secrets.CODESPACE_TOKEN }} legnoh leglog ${PR_NUMBER})
         target_codespaces=$(get_pullreq_unused_spaces "${{ secrets.CODESPACE_TOKEN }}" "legnoh" "leglog" "${PR_BRANCH_NAME}")
-        
-        echo ${target_codespaces}
         echo ${target_codespaces} | while read line; do
-          delete_codespace "${{ secrets.CODESPACE_TOKEN }}" "legnoh" "${line}"
+          delete_codespace "${{ secrets.CODESPACE_TOKEN }}" "${line}"
         done
