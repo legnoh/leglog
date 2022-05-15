@@ -44,4 +44,4 @@ jobs:
     - name: Create Codespace for PullRequest
       run: |
         source .github/workflows/github_api.sh
-        create_codespace_for_pr ${{ secrets.CODESPACE_TOKEN }} legnoh leglog ${{ steps.create-pull-request.outputs.pull-request-number }} SouthEastAsia
+        create_codespace_for_pr ${{ secrets.CODESPACE_TOKEN }} legnoh leglog ${{ steps.create-pull-request.outputs.pull-request-number }}
