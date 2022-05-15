@@ -4,6 +4,7 @@ on:
   pull_request:
     types:
       - "closed"
+    paths: [ content/posts/**.md ]
 
 jobs:
   cleanup:
