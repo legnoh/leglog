@@ -6609,10 +6609,10 @@ gatsby-link@^4.19.1:
     gatsby-page-utils "^2.19.0"
     prop-types "^15.8.1"
 
-gatsby-omni-font-loader@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/gatsby-omni-font-loader/-/gatsby-omni-font-loader-2.0.0.tgz#871287c2f2de87d0ff5931603f86b77375ce4b64"
-  integrity sha512-f+cHLIn5f4sEN0RCJ4WZx7QknF0fStUdyPVsczQAyji5UC1MlYzYjzMv9RF7E8CDRMCMM7N7RTruA6ob/VvtgA==
+gatsby-omni-font-loader@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/gatsby-omni-font-loader/-/gatsby-omni-font-loader-2.0.1.tgz#a465fa901b67cfe57b26732c6edf3ffb1184a8a4"
+  integrity sha512-4IBgvbargzwGYvDcsn92QfWYlkz0F/TZqtnM/Wyoruap8B2sLod4+1Qhms7DgD/KFyUeJxVPVZtRNAKYbahuzA==
 
 gatsby-page-utils@^2.19.0:
   version "2.19.0"
