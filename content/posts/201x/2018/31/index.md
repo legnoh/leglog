@@ -31,7 +31,7 @@ SixPadと普段のウォーキングの合わせ技が効果あるんやなー�
 
 - [Amazon.co.jp： 第二世代最新バージョン ラジオライト AngLink 防災ラジオ 手回し充電 LED懐中電灯 非常ベル付き 災害用ラジオ iPhone Android スマホ充電可能 AM/FMラジオ機能付き 防水 災害対策: ホーム＆キッチン](https://www.amazon.co.jp/dp/B01M24AZ3V)
 - [Amazon | ヤマザキビスケット ルヴァン保存缶L 104枚 | ヤマザキビスケット | クラッカー 通販](https://www.amazon.co.jp/dp/B01NGYMMPF)
-- [Amazon | BAND-AID(バンドエイド) 救急絆創膏 肌色タイプ<4サイズ> 25枚 (S9枚, W2枚, P2枚, Jr12枚) | BAND-AID(バンドエイド) | ドラッグストア](https://www.amazon.co.jp/dp/B000FQNKEM)
+- [Amazon | BAND-AID(バンドエイド) 救急絆創膏 肌色タイプ&lt;4サイズ&gt; 25枚 (S9枚, W2枚, P2枚, Jr12枚) | BAND-AID(バンドエイド) | ドラッグストア](https://www.amazon.co.jp/dp/B000FQNKEM)
 - [Amazon | 白十字 FC ステラーゼ S(7.5cm×10cm) 8枚入 | 白十字 | ガーゼ・脱脂綿](https://www.amazon.co.jp/dp/B0012VVDWU)
 - [Amazon | FC防水ワンタッチパッド M お徳用 16枚入 | 白十字 | ドラッグストア](https://www.amazon.co.jp/dp/B00KCGZI4K)
 - [Amazon | 【口腔用品】【口腔用ウエットティッシュ】・口内清潔ウェットシート ◆ 21枚入 [46398] | 白十字 株式会社 | 口腔ケア介助用品](https://www.amazon.co.jp/dp/B00H7Y0UP2)
