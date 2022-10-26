@@ -38,9 +38,9 @@ blog_url: https://leglog.lkj.io/2022-01
 昔から気になっていた小型ONUを使えばルータ周りめちゃくちゃ綺麗にセッティングできるんじゃね？と思いつき、通信環境の強化も兼ねて以下の構成に乗り換えた。
 
 - プロバイダ: ソフトバンク光 → DTI光(ホームゲートウェイなし)
-- ONU: GE-ONU → 小型ONU(GE-PON<FA\>A SFP-ONU<1\>S TA06005-B907)
+- ONU: GE-ONU → 小型ONU(GE-PON&lt;FA&gt;A SFP-ONU&lt;1&gt;S TA06005-B907)
 - ルータ: 光BBユニット → YAMAHA NVR510
-- 無線AP: LINKSYS Velop MX5300
+- 無線AP: LINKSYS Velop MX5300 → Nighthawk AX6000 WiFi Mesh Extender(EAX80)
 
 正直この構成にただするだけであれば特に難しくはないのだが、プロバイダがソフトバンク光だったこともあり、ONUの乗換え部分で知識不足もあってかなり難しいステップを踏むことになった。具体的にはこう。
 
