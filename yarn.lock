@@ -1558,10 +1558,10 @@
     remark-gfm "^1"
     remark-unwrap-images "^2.0.0"
 
-"@lekoarts/gatsby-theme-minimal-blog@^5.0.1":
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/@lekoarts/gatsby-theme-minimal-blog/-/gatsby-theme-minimal-blog-5.0.1.tgz#e26c01048555a986574321f24e363136df362319"
-  integrity sha512-FcRgwR1ef5EJY2re1VPxu3gLC03wz3SufW4jAxBd4rbT+T9J/nGWged71CAOCYvm5BQxpgJv/KJw1B4+Zq2tOg==
+"@lekoarts/gatsby-theme-minimal-blog@^5.0.2":
+  version "5.0.2"
+  resolved "https://registry.yarnpkg.com/@lekoarts/gatsby-theme-minimal-blog/-/gatsby-theme-minimal-blog-5.0.2.tgz#edd1244279826f517dd1ab4c99adfb249add418c"
+  integrity sha512-rmU7rckf5jCyXEkklHQqX9CvdCWZCKaxhQJZYe3Y/my1YdatbCLD19MpN9dwXnF4GtWSi3Dq7CFDYJoFgv7enQ==
   dependencies:
     "@emotion/react" "^11.10.4"
     "@lekoarts/gatsby-theme-minimal-blog-core" "^5.0.1"
