@@ -12,7 +12,7 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
-    "@lekoarts/gatsby-theme-minimal-blog": "^5.0.2",
+    "@lekoarts/gatsby-theme-minimal-blog": "^5.0.3",
     "gatsby": "^4.24.6",
     "gatsby-omni-font-loader": "^2.0.2",
     "gatsby-plugin-feed": "^4.24.0",
