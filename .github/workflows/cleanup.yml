@@ -7,19 +7,11 @@ on:
     paths: [ content/posts/**.md ]
 
 jobs:
-  cleanup:
-    name: Cleanup
+  nightly:
+    name: Deploy nightly
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
-    - uses: FranzDiebold/github-env-vars-action@v2.7.0
-    - name: Cleanup Codespace for PullRequest
-      run: |
-        source .github/workflows/github_api.sh
-
-        export PR_NUMBER="${GITHUB_REF_NAME%/merge}"
-        export PR_BRANCH_NAME=$(get_branch_name_by_pr_number ${{ secrets.CODESPACE_TOKEN }} legnoh leglog ${PR_NUMBER})
-        target_codespaces=$(get_pullreq_unused_spaces "${{ secrets.CODESPACE_TOKEN }}" "legnoh" "leglog" "${PR_BRANCH_NAME}")
-        echo ${target_codespaces} | while read line; do
-          delete_codespace "${{ secrets.CODESPACE_TOKEN }}" "${line}"
-        done
+      - name: Deploy Empty Codespace
+        uses: NickLiffen/delete-empty-codespaces@v1.0.0
+        with:
+          GITHUB_TOKEN: ${{ secrets.CODESPACE_TOKEN }}
